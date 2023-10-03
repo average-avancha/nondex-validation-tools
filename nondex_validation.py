@@ -1,7 +1,3 @@
-import os
-import subprocess
-import pandas
-
 from helper import load_flaky_tests, setup_nondex_testing_filestructure
 import flakytest
 
