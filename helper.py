@@ -27,12 +27,14 @@ def ensure_maven_version(maven_download_url: str) -> None:
 
 def setup_nondex_testing_filestructure(proj_root: str) -> None:
     # Create a directory for nondex_upgrade
+    if not os.path.isdir(proj_root):
+        os.makedirs(proj_root)
     os.chdir(proj_root)
     nondex_testing_path = f"{proj_root}/nondex_upgrade_testing"
     if not os.path.isdir(nondex_testing_path):
         os.mkdir(nondex_testing_path, 777)
 
-def load_flaky_tests(proj_root: str, current_project_url: str) -> list[FlakyTest]:
+def load_flaky_tests(proj_root: str, current_project_url: str) -> List[FlakyTest]:
     # Read tests csv
     os.chdir(f"{proj_root}/nondex_upgrade_testing")
     dataset_name = "modified-pr-data.csv"
