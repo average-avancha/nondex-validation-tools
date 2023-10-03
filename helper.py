@@ -1,6 +1,5 @@
-import numpy
 import os
-import pandas
+import pandas as pd
 import subprocess
 from typing import List
 
@@ -51,7 +50,7 @@ def load_flaky_tests(proj_root: str, current_project_url: str) -> List[FlakyTest
                     "PR Link",
                     "Notes"]
     
-    dataset = pandas.read_csv(f"{proj_root}/{dataset_name}", names=column_names)
+    dataset = pd.read_csv(f"{proj_root}/{dataset_name}", names=column_names)
     # Filter tests to only include current project
     project_tests = dataset[dataset["Project URL"] == current_project_url].to_numpy()
     
