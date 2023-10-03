@@ -4,8 +4,6 @@ import flakytest
 def main():
     PROJ_ROOT = "/home/neo/cs527"
     nondex_testing_path = f"{PROJ_ROOT}/nondex_upgrade_testing"
-    repo_name = "nifi"
-    # repo_https_link = "https://github.com/zzjas/nifi.git"
     project_url = "https://github.com/zzjas/nifi"
 
     setup_nondex_testing_filestructure(PROJ_ROOT)
