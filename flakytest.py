@@ -13,7 +13,8 @@ class FlakyTest:
                  status: str,
                  pr_link: str,
                  notes: str,
-                 nondex_maven_plugin: str = "") -> None:
+                 nondex_maven_plugin: str = "",
+                 mode: int = 0o777) -> None:
         
         self.project_url = project_url # Project URL,
         self.sha_detected = sha_detected # SHA Detected,
@@ -25,23 +26,26 @@ class FlakyTest:
         self.notes = notes # Notes
         self.project_name = self.project_url.split("/")[-1]
         self.nondex_maven_plugin = self.set_nondex_maven_plugin(nondex_maven_plugin)
+        self.mode = mode
 
     def run_flaky_test(self, testing_root: str, log_path: str = "") -> None:
         if not os.access(os.path.dirname(testing_root), os.W_OK):
             return
         
         if not isdir(testing_root):
-            makedirs(testing_root, 777)
+            makedirs(testing_root, mode=self.mode)
         chdir(testing_root)
 
         if not isdir(log_path):
-            makedirs(log_path, 777)
+            makedirs(log_path, mode=self.mode)
 
         # clone and checkout issue branch of the project
         repo_https_link = f"{self.project_url}.git"
         self.clone_project_repo(repo_link=repo_https_link, repo_name=self.project_name, directory=testing_root, log_path=log_path)
         
         project_dir = f"{testing_root}/{self.project_name}"
+        if not isdir(project_dir):
+            makedirs(project_dir, mode=self.mode)
         log_directory = log_path
         
         self.run_command(command = f"git checkout {self.sha_detected}", directory = project_dir, log_directory = log_directory)
@@ -67,7 +71,7 @@ class FlakyTest:
             log_directory = directory
 
         if not isdir(directory):
-            makedirs(directory)
+            makedirs(directory, mode=self.mode)
         
         chdir(directory)
         
@@ -81,6 +85,9 @@ class FlakyTest:
             nondex_maven_plugin = "nondex-maven-plugin:2.1.1"
         self.nondex_maven_plugin = nondex_maven_plugin
 
+
+    def set_mode(self, mode: int) -> None:
+        self.mode = mode
     
     def get_test_name_for_mvn(self, test_name: str) -> str:
         split_path = test_name.split(".")
@@ -96,7 +103,7 @@ class FlakyTest:
             logname = f"{reformatted_name}.log"
         
         if not isdir(directory):
-            makedirs(directory)
+            makedirs(directory, mode=self.mode)
         chdir(directory)
 
         with open(f"{directory}/{logname}", "a") as f:
@@ -106,13 +113,10 @@ class FlakyTest:
     def clone_project_repo(self, repo_link: str, repo_name: str, directory: str, log_path: str = "") -> None:
         chdir(directory)
         clone_path = f"{directory}/{repo_name}"
+        
         if isdir(clone_path):
             self.run_command(f"rm -rf {clone_path}", directory=directory, log_directory=log_path)
-        try:
-            clone_repo = f"git clone {repo_link} {clone_path}"
-            self.run_command(clone_repo, directory, log_directory=log_path)
-        except:
-            pass
+        self.run_command(f"git clone {repo_link} {clone_path}", directory, log_directory=log_path)
 
 
     def __str__(self) -> str:

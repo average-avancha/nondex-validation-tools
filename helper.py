@@ -1,39 +1,60 @@
 import os
 import pandas as pd
 import subprocess
-from typing import List
+
 
 from flakytest import FlakyTest
 
-def ensure_java_17() -> None:
-    java_version_log_name = "java_version.log"
+MODE = 0o777
+
+def ensure_java_17(log_path = "", log_name: str = "java_version.log") -> None:
+    if log_path == "":
+        log_path = os.getcwd()
     
-    subprocess.call("java -version >> java_version.log")
-    subprocess.call("sudo apt-get update && sudo apt-get install openjdk-17-jdk >> java_version.log")
-    subprocess.call("sudo update-alternatives --set java /usr/lib/jvm/java-17-openjdk-amd64/bin/java >> java_version.log")
-    subprocess.call("sudo update-alternatives --set javac /usr/lib/jvm/java-17-openjdk-amd64/bin/javac >> java_version.log")
-    subprocess.call("java -version >> java_version.log")
+    if not os.path.isdir(log_path):
+        os.mkdir(log_path, mode=MODE)
+    os.chdir(log_path)
 
-def ensure_maven_version(maven_download_url: str) -> None:
-#   maven_download_url = "https://dlcdn.apache.org/maven/maven-3/3.9.2/binaries/apache-maven-3.9.2-bin.tar.gz"
-  filename = maven_download_url.split("/")[-1]
-  maven_version = filename.split("-")[:-1]
+    if not os.path.isfile(log_name):
+        subprocess.call(f"echo ''> {log_path}/{log_name}")
 
-  subprocess.run(f"wget {maven_download_url} -O /tmp/{filename}")
-  subprocess.run(f"tar -xvf /tmp/{filename} -C /opt")
-  subprocess.run(f"ln -s /opt/{maven_version} /opt/maven")
-  subprocess.run(f"rm /tmp/{filename}")
+    subprocess.call(f"java --version | tee {log_path}/{log_name}", shell=True)
+    # subprocess.call(f"sudo apt-get update && sudo apt-get install openjdk-17-jdk >> {log_name}", shell=True)
+    # subprocess.call(f"sudo update-alternatives --set java /usr/lib/jvm/java-17-openjdk-amd64/bin/java >> {log_name}", shell=True)
+    # subprocess.call(f"sudo update-alternatives --set javac /usr/lib/jvm/java-17-openjdk-amd64/bin/javac >> {log_name}", shell=True)
+    # subprocess.call(f"java -version >> {log_name}", shell=True)
+
+def ensure_maven_version(maven_download_url: str = "", log_path = "", log_name: str = "maven_version.log") -> None:
+    if log_path == "":
+        log_path = os.getcwd()
+    
+    if not os.path.isdir(log_path):
+        os.mkdir(log_path, mode=MODE)
+    os.chdir(log_path)
+
+    subprocess.call(f"mvn --version > {log_path}/{log_name}", shell=True)
+
+    # if maven_download_url == "":
+    #     maven_download_url = "https://archive.apache.org/dist/maven/maven-3/3.9.2/binaries/apache-maven-3.9.2-bin.tar.gz"
+    # filename = maven_download_url.split("/")[-1]
+    # maven_version = "-".join(filename.split("-")[:-1])
+
+    # subprocess.run(f"wget {maven_download_url} -O /tmp/{filename} >> {log_name}", shell=True)
+    # subprocess.run(f"sudo tar -xvf /tmp/{filename} -C /opt >> {log_name}", shell=True)
+    # subprocess.run(f"sudo ln -s /opt/{maven_version} /opt/maven >> {log_name}", shell=True)
+    # subprocess.run(f"rm /tmp/{filename} >> {log_name}", shell=True)
+
+
 
 def setup_nondex_testing_filestructure(proj_root: str) -> None:
     # Create a directory for nondex_upgrade
-    if not os.path.isdir(proj_root):
-        os.makedirs(proj_root)
     os.chdir(proj_root)
+    os.chmod(proj_root, mode=MODE)
     nondex_testing_path = f"{proj_root}/nondex_upgrade_testing"
     if not os.path.isdir(nondex_testing_path):
-        os.mkdir(nondex_testing_path, 777)
+        os.mkdir(nondex_testing_path, mode=MODE)
 
-def load_flaky_tests(proj_root: str, current_project_url: str) -> List[FlakyTest]:
+def load_flaky_tests(proj_root: str, current_project_url: str = "") -> list[FlakyTest]:
     # Read tests csv
     os.chdir(f"{proj_root}/nondex_upgrade_testing")
     dataset_name = "modified-pr-data.csv"
@@ -52,7 +73,9 @@ def load_flaky_tests(proj_root: str, current_project_url: str) -> List[FlakyTest
     
     dataset = pd.read_csv(f"{proj_root}/{dataset_name}", names=column_names)
     # Filter tests to only include current project
-    project_tests = dataset[dataset["Project URL"] == current_project_url].to_numpy()
+    project_tests = dataset.to_numpy()
+    if current_project_url != "":
+        project_tests = dataset[dataset["Project URL"] == current_project_url].to_numpy()
     
     flaky_tests = []
     for test in project_tests:
