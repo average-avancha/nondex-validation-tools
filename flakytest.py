@@ -55,12 +55,12 @@ class FlakyTest:
         self.run_command(command = f"mvn install -pl {self.module_path} -am -DskipTests", directory = project_dir, log_directory = log_directory)
 
         # run test
-        run_test = f"mvn -pl {self.module_path} test -Dtest={self.get_test_name_for_mvn(self.test_name)}"
+        run_test = f"mvn -pl {self.module_path} test -Dtest={self.get_test_name_for_mvn(self.test_name)} -X"
         self.run_command(command=run_test, directory = project_dir, log_directory = log_directory)
 
         # run test with NonDex 
         # nondex_maven_plugin = "nondex-maven-plugin:2.1.7-SNAPSHOT"
-        nondex_test = f"mvn -pl {self.module_path} edu.illinois:{self.nondex_maven_plugin}:nondex -Dtest={self.get_test_name_for_mvn(self.test_name)} -DnondexRuns=50"
+        nondex_test = f"mvn -pl {self.module_path} edu.illinois:{self.nondex_maven_plugin}:nondex -Dtest={self.get_test_name_for_mvn(self.test_name)} -DnondexRuns=50 -X"
         self.run_command(command=nondex_test, directory = project_dir, log_directory = log_directory)
 
         self.run_command(f"git reset --hard HEAD^", directory = project_dir, log_directory = log_directory)
