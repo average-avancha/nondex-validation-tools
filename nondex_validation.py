@@ -1,7 +1,7 @@
 from helper import load_flaky_tests, setup_nondex_testing_filestructure, ensure_java_17, ensure_maven_version
 
 def main():
-    PROJ_ROOT = "/home/neo/cs527"
+    PROJ_ROOT = "/home/rra2/cs527"
     nondex_testing_path = f"{PROJ_ROOT}/nondex_upgrade_testing"
     # repo_name = "nifi"
     # repo_https_link = "https://github.com/zzjas/nifi.git"

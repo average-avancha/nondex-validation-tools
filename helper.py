@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 import subprocess
+from typing import List
 
 from flakytest import FlakyTest
 
@@ -52,14 +53,17 @@ def setup_nondex_testing_filestructure(proj_root: str) -> None:
     nondex_testing_path = f"{proj_root}/nondex_upgrade_testing"
     if not os.path.isdir(nondex_testing_path):
         os.mkdir(nondex_testing_path, mode=MODE)
+    os.chmod(nondex_testing_path, mode=MODE)
 
-def load_flaky_tests(proj_root: str, current_project_url: str = "") -> list[FlakyTest]:
+def load_flaky_tests(proj_root: str, current_project_url: str = "") -> List[FlakyTest]:
     # Read tests csv
-    os.chdir(f"{proj_root}/nondex_upgrade_testing")
+    cwd = f"{proj_root}/nondex_upgrade_testing"
+    os.chdir(cwd)
+
     dataset_name = "modified-pr-data.csv"
     if not os.path.isfile(f"{proj_root}/{dataset_name}"): 
         get_dataset = "wget https://gist.githubusercontent.com/zzjas/2aa06ef5e7f0087496ea7ab17938b115/raw/6e2c8837607dbb44a3c4264af197d4a0230468ca/modified-pr-data.csv"
-        subprocess.call(get_dataset)
+        subprocess.call(get_dataset, shell=True)
     
     column_names = ["Project URL", 
                     "SHA Detected", 
@@ -70,7 +74,7 @@ def load_flaky_tests(proj_root: str, current_project_url: str = "") -> list[Flak
                     "PR Link",
                     "Notes"]
     
-    dataset = pd.read_csv(f"{proj_root}/{dataset_name}", names=column_names)
+    dataset = pd.read_csv(f"{cwd}/{dataset_name}", names=column_names)
     # Filter tests to only include current project
     project_tests = dataset.to_numpy()
     if current_project_url != "":
