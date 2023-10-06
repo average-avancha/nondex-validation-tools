@@ -1,0 +1,1231 @@
+
+
+Cloning into '/home/neo/cs527/nondex_upgrade_testing/commons-collections'...
+
+Note: switching to '371313a2e4d1da5e0776419ce94bb8b644158a20'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 371313a2 Bump commons.junit.version from 5.8.1 to 5.8.2
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36morg.apache.commons:commons-collections4[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Collections 4.5-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Enabled default license matchers.
+[[1;34mINFO[m] Will parse SCM ignores for exclusions...
+[[1;34mINFO[m] Parsing exclusions from /home/neo/cs527/nondex_upgrade_testing/commons-collections/.gitignore
+[[1;34mINFO[m] Finished adding exclusions from SCM ignore files.
+[[1;34mINFO[m] 72 implicit excludes (use -debug for more details).
+[[1;34mINFO[m] 12 explicit excludes (use -debug for more details).
+[[1;34mINFO[m] 640 resources included (use -debug for more details)
+[[1;34mINFO[m] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 635 licenses.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.2.0:parse-version[m [1m(parse-version)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:3.0.0:run[m [1m(javadoc.resources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+[[1;34mINFO[m]      [copy] Copying 2 files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Skipping remote resources execution.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/neo/cs527/nondex_upgrade_testing/commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/neo/cs527/nondex_upgrade_testing/commons-collections
+[[1;34mINFO[m] Storing buildNumber: 371313a2e4d1da5e0776419ce94bb8b644158a20 at timestamp: 1696397605181
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/neo/cs527/nondex_upgrade_testing/commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/neo/cs527/nondex_upgrade_testing/commons-collections
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 351 source files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:5.1.1:manifest[m [1m(bundle-manifest)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 180 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 239 source files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/test-classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32manimal-sniffer-maven-plugin:1.19:check[m [1m(checkAPIcompatibility)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.7:prepare-agent[m [1m(prepare-agent)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/neo/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/neo/cs527/nondex_upgrade_testing/commons-collections/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.9.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Skipping because packaging 'jar' is not pom.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:test-jar[m [1m(default)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.1:jar-no-fork[m [1m(create-source-jar)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.1:test-jar-no-fork[m [1m(create-source-jar)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.7:check[m [1m(check)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file:/home/neo/cs527/nondex_upgrade_testing/commons-collections/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT.jar to /home/neo/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/commons-collections/pom.xml to /home/neo/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT-tests.jar to /home/neo/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT-tests.jar
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT-sources.jar to /home/neo/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT-test-sources.jar to /home/neo/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10.710 s
+[[1;34mINFO[m] Finished at: 2023-10-04T00:33:34-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36morg.apache.commons:commons-collections4[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Collections 4.5-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Enabled default license matchers.
+[[1;34mINFO[m] Will parse SCM ignores for exclusions...
+[[1;34mINFO[m] Parsing exclusions from /home/neo/cs527/nondex_upgrade_testing/commons-collections/.gitignore
+[[1;34mINFO[m] Finished adding exclusions from SCM ignore files.
+[[1;34mINFO[m] 72 implicit excludes (use -debug for more details).
+[[1;34mINFO[m] 12 explicit excludes (use -debug for more details).
+[[1;34mINFO[m] 640 resources included (use -debug for more details)
+[[1;34mINFO[m] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 635 licenses.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.2.0:parse-version[m [1m(parse-version)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:3.0.0:run[m [1m(javadoc.resources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Skipping remote resources execution.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/neo/cs527/nondex_upgrade_testing/commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/neo/cs527/nondex_upgrade_testing/commons-collections
+[[1;34mINFO[m] Storing buildNumber: 371313a2e4d1da5e0776419ce94bb8b644158a20 at timestamp: 1696397616793
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/neo/cs527/nondex_upgrade_testing/commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/neo/cs527/nondex_upgrade_testing/commons-collections
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 351 source files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:5.1.1:manifest[m [1m(bundle-manifest)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 180 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 239 source files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/test-classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32manimal-sniffer-maven-plugin:1.19:check[m [1m(checkAPIcompatibility)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.7:prepare-agent[m [1m(prepare-agent)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/neo/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/neo/cs527/nondex_upgrade_testing/commons-collections/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10.022 s
+[[1;34mINFO[m] Finished at: 2023-10-04T00:33:45-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.22.2:test[m [1m(default-test)[m on project [36mcommons-collections4[m: [1;31mNo tests were executed!  (Set -DfailIfNoTests=false to ignore this error.)[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36morg.apache.commons:commons-collections4[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Collections 4.5-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex-maven-plugin:2.1.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcommons-collections4[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Enabled default license matchers.
+[[1;34mINFO[m] Will parse SCM ignores for exclusions...
+[[1;34mINFO[m] Parsing exclusions from /home/neo/cs527/nondex_upgrade_testing/commons-collections/.gitignore
+[[1;34mINFO[m] Finished adding exclusions from SCM ignore files.
+[[1;34mINFO[m] 72 implicit excludes (use -debug for more details).
+[[1;34mINFO[m] 12 explicit excludes (use -debug for more details).
+[[1;34mINFO[m] 640 resources included (use -debug for more details)
+[[1;34mINFO[m] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 635 licenses.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.2.0:parse-version[m [1m(parse-version)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:3.0.0:run[m [1m(javadoc.resources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Skipping remote resources execution.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/neo/cs527/nondex_upgrade_testing/commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/neo/cs527/nondex_upgrade_testing/commons-collections
+[[1;34mINFO[m] Storing buildNumber: 371313a2e4d1da5e0776419ce94bb8b644158a20 at timestamp: 1696397627532
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/neo/cs527/nondex_upgrade_testing/commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/neo/cs527/nondex_upgrade_testing/commons-collections
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 351 source files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:5.1.1:manifest[m [1m(bundle-manifest)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 180 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 239 source files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/test-classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex-maven-plugin:2.1.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcommons-collections4[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex-maven-plugin:2.1.1:nondex[m [1m(default-cli)[m @ [36mcommons-collections4[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_WXQu9tIBRAO+L4MNmtAcEu0eafY1uGyCOjtihS+btcE=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for clean_WXQu9tIBRAO+L4MNmtAcEu0eafY1uGyCOjtihS+btcE=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=5OFlywKlKL960j2TUf9tKsQmZVbiA8MIs38YYLYc4=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 5OFlywKlKL960j2TUf9tKsQmZVbiA8MIs38YYLYc4=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=He5lFT8vccZI9PJ2h8fOKKbY5ZcZ0WY19wB3VhfTwY=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for He5lFT8vccZI9PJ2h8fOKKbY5ZcZ0WY19wB3VhfTwY=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=u178COEmJ2MQp2MpXpaonJNedGWJE++hWLRnELzIUw=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for u178COEmJ2MQp2MpXpaonJNedGWJE++hWLRnELzIUw=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1057510
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=h2utCcVvkHUZ33g2lzKfYn92aOoq+SLuq53KrRBvnw=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for h2utCcVvkHUZ33g2lzKfYn92aOoq+SLuq53KrRBvnw=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1098954
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=KRg9w60BtcwJHsL9TlHr7+xZk1vrQKPIoINAvy24n4=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for KRg9w60BtcwJHsL9TlHr7+xZk1vrQKPIoINAvy24n4=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1140398
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=n+2u7lJb2o4UrO1nlKtPL91JrN5xrvYM9zLKJPdHtQ=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for n+2u7lJb2o4UrO1nlKtPL91JrN5xrvYM9zLKJPdHtQ=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1181842
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=Mc377Q0SEO5YRzauadz9HGKMljYlZoZyoMlAtqdeIwE=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for Mc377Q0SEO5YRzauadz9HGKMljYlZoZyoMlAtqdeIwE=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1223286
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=aF4MwqOQ2FkXOwJjj1pg6szFHwzXfRCN22XufkjJG5Y=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for aF4MwqOQ2FkXOwJjj1pg6szFHwzXfRCN22XufkjJG5Y=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1264730
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=uwQsvSQCZuQH1DHXokPwjnzgooc19EWbgTISm2VXA1U=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for uwQsvSQCZuQH1DHXokPwjnzgooc19EWbgTISm2VXA1U=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1306174
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=9E7OmFWii2wb4SR+kInWnDX+6mHQ4TS2SZKvd3RlrU=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 9E7OmFWii2wb4SR+kInWnDX+6mHQ4TS2SZKvd3RlrU=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1347618
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=46Abq2vH7wU4HGFopaUc9LGj4yDR3+cj7UbyxgauH4=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 46Abq2vH7wU4HGFopaUc9LGj4yDR3+cj7UbyxgauH4=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1389062
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=Sz+Oq3MX1VSLd417HBmnxOEMao6D+VS1Kggz5cEyTw=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for Sz+Oq3MX1VSLd417HBmnxOEMao6D+VS1Kggz5cEyTw=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1430506
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=a++TKqbbhFqV1NB7XQdgdJQV0aHTB8jRDpb9ujW5apU=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for a++TKqbbhFqV1NB7XQdgdJQV0aHTB8jRDpb9ujW5apU=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1471950
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=fTidsHlzS9uCVR+D9wH2cLg9MeXxS9Mv1pG05JMd5k=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for fTidsHlzS9uCVR+D9wH2cLg9MeXxS9Mv1pG05JMd5k=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1513394
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=GBQfLXf1+0sE45y8ow00MU8ZTP668Vcm6ZG3IFlN14=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for GBQfLXf1+0sE45y8ow00MU8ZTP668Vcm6ZG3IFlN14=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1554838
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=5i8WrFUZFnEs+pKvI98hXJWGa88KP9qv3QzAvEUAt8=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 5i8WrFUZFnEs+pKvI98hXJWGa88KP9qv3QzAvEUAt8=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1596282
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=LVTddfmEXs9tNSsmBpnIH8v7Hf1IzQtm+P77tIRv+c=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for LVTddfmEXs9tNSsmBpnIH8v7Hf1IzQtm+P77tIRv+c=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1637726
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=dRfGnFkDlmDiz+v6kYQwf5O0xA2MmQgz1R2P+9XitHg=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for dRfGnFkDlmDiz+v6kYQwf5O0xA2MmQgz1R2P+9XitHg=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1679170
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=qsuXgrY7tlZOoIxXEyE9awbN8vFOKzilkTxTxg93c=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for qsuXgrY7tlZOoIxXEyE9awbN8vFOKzilkTxTxg93c=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1720614
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=MZuRspPBSEidAQHdgEJhnwZjGmApJCYYQbB13liXhNM=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for MZuRspPBSEidAQHdgEJhnwZjGmApJCYYQbB13liXhNM=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1762058
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=XMLxlK7Ld2Y3nbIcf8iCINaCnrei1pftc2S2SPkP3UY=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for XMLxlK7Ld2Y3nbIcf8iCINaCnrei1pftc2S2SPkP3UY=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1803502
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=VUBP6kOHz+KdyvzMKwjbF1RxoydtKh2mUWhrwGJI=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for VUBP6kOHz+KdyvzMKwjbF1RxoydtKh2mUWhrwGJI=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1844946
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=HuaLZhYOCe8DyB2Hwd02+tOcVexfFh7dL1+bpdxN8=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for HuaLZhYOCe8DyB2Hwd02+tOcVexfFh7dL1+bpdxN8=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1886390
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=1cAnbLgspbDrhRlcxMt7B0keQks7ZWLzZgBORuCI5mo=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 1cAnbLgspbDrhRlcxMt7B0keQks7ZWLzZgBORuCI5mo=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1927834
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=zSH66wYAH6nfUXrGQ6YdnkSMKrBC91LfNfyVHVEpeI=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for zSH66wYAH6nfUXrGQ6YdnkSMKrBC91LfNfyVHVEpeI=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1969278
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=6o+KehaY569mwtqHxtqq4f2G6FqxjbOZ2HNtTlhxQGg=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 6o+KehaY569mwtqHxtqq4f2G6FqxjbOZ2HNtTlhxQGg=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2010722
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=AE5iUpp7eUo71TS9w5HVSpjk9rr70b06SGa+AWqUA=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for AE5iUpp7eUo71TS9w5HVSpjk9rr70b06SGa+AWqUA=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2052166
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=S6WU7svOjU9Oocx8q87PZaoszSsPMNAzUdekqmi4=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for S6WU7svOjU9Oocx8q87PZaoszSsPMNAzUdekqmi4=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2093610
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=BYzADWO+HQjwYrg7AIGJaKhYBA6DbOvlBCbgIhqyI=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for BYzADWO+HQjwYrg7AIGJaKhYBA6DbOvlBCbgIhqyI=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2135054
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=QSFb+dVZ5DAgoSTL8Tj+SnKX84YQBmGDcDa+9FI+KjU=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for QSFb+dVZ5DAgoSTL8Tj+SnKX84YQBmGDcDa+9FI+KjU=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2176498
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=qzTuyMmMp+b6AiaJ0wSLBwunvczMsuogevSVEJrL2gw=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for qzTuyMmMp+b6AiaJ0wSLBwunvczMsuogevSVEJrL2gw=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2217942
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=GZPWKFOVGY1snjbOC69OXzVucp+hxXLwyQHELvP1k=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for GZPWKFOVGY1snjbOC69OXzVucp+hxXLwyQHELvP1k=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2259386
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=9jBeZ5A2s9ulqUQDF53LsKm8FxL+agSU47quNisRjg=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 9jBeZ5A2s9ulqUQDF53LsKm8FxL+agSU47quNisRjg=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2300830
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=gYA9rZGf1ztrqre9vjQjhYqGDqgdCjVQaAjrHeBT71Q=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for gYA9rZGf1ztrqre9vjQjhYqGDqgdCjVQaAjrHeBT71Q=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2342274
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=bD4wAqS+coVW5Sr0eN7MRhwHLx3z+tLdByDJoaG6Rk=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for bD4wAqS+coVW5Sr0eN7MRhwHLx3z+tLdByDJoaG6Rk=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2383718
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=xPQVHavNIyticpB39G+68BpZXkEgIpSVg4pypTrNK18=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for xPQVHavNIyticpB39G+68BpZXkEgIpSVg4pypTrNK18=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2425162
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=xRNp9AAU98LoxERayGNlEnUfMTfpGcXNgrE8Qm7CDss=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for xRNp9AAU98LoxERayGNlEnUfMTfpGcXNgrE8Qm7CDss=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2466606
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=0HnJhTgWQ25QLZQHJjlpCFqMtlxWVfHdaVqfPIkPc8=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 0HnJhTgWQ25QLZQHJjlpCFqMtlxWVfHdaVqfPIkPc8=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2508050
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=sW0vLnmO7FczgKwRWeXyH60uASx1oSyhLvj3PBsfQc=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for sW0vLnmO7FczgKwRWeXyH60uASx1oSyhLvj3PBsfQc=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2549494
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=x4YL3ac4EFhGxstuil1A0mllP5m406LZDuGJx6orkFY=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for x4YL3ac4EFhGxstuil1A0mllP5m406LZDuGJx6orkFY=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2590938
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=QV82rDMD7QYFnTXAaJuVElsKsLAyrOQp5EQac0pgKsI=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for QV82rDMD7QYFnTXAaJuVElsKsLAyrOQp5EQac0pgKsI=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2632382
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=bXkzJh+rbsagHV1itWvV43QD5+xOygyHmaENGcQj08=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for bXkzJh+rbsagHV1itWvV43QD5+xOygyHmaENGcQj08=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2673826
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=o5NnyUfWrYC87xb9AcNXOjbcLUiPt3jCaqvdWM58Rss=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for o5NnyUfWrYC87xb9AcNXOjbcLUiPt3jCaqvdWM58Rss=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2715270
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=c5lNFSxsl3jkw8vz9x4VRgHKKQCJQcEkYXs3QeOe224=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for c5lNFSxsl3jkw8vz9x4VRgHKKQCJQcEkYXs3QeOe224=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2756714
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=LTPcbh50MC2zFp3rqz2sPQU7jeczPIghIxDUCwXALI4=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for LTPcbh50MC2zFp3rqz2sPQU7jeczPIghIxDUCwXALI4=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2798158
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=ZlVTKJ6NMnm77Fpzyq4qPbjv3pihPVMPf08qEPiIu4c=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for ZlVTKJ6NMnm77Fpzyq4qPbjv3pihPVMPf08qEPiIu4c=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2839602
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=BWxanq2VYkPD2pEGyH9qCksmIgCdbdh3y0XtRkJTJs=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for BWxanq2VYkPD2pEGyH9qCksmIgCdbdh3y0XtRkJTJs=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2881046
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=ZsyxWbRz38xyPx0VFrNvyw9NGY8RLW3eKJf3xNJRIFA=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for ZsyxWbRz38xyPx0VFrNvyw9NGY8RLW3eKJf3xNJRIFA=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2922490
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=n1WuUJfKlgb+cxZZvyMIPmCu9LWLoVrwaEgjAKu64=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for n1WuUJfKlgb+cxZZvyMIPmCu9LWLoVrwaEgjAKu64=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2963934
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=kO24LVOg9SuF7IHOY31Rz7conkMOYjncy8ltXYWDGs=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for kO24LVOg9SuF7IHOY31Rz7conkMOYjncy8ltXYWDGs=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=5OFlywKlKL960j2TUf9tKsQmZVbiA8MIs38YYLYc4= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=He5lFT8vccZI9PJ2h8fOKKbY5ZcZ0WY19wB3VhfTwY= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=u178COEmJ2MQp2MpXpaonJNedGWJE++hWLRnELzIUw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1057510 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=h2utCcVvkHUZ33g2lzKfYn92aOoq+SLuq53KrRBvnw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1098954 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=KRg9w60BtcwJHsL9TlHr7+xZk1vrQKPIoINAvy24n4= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1140398 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=n+2u7lJb2o4UrO1nlKtPL91JrN5xrvYM9zLKJPdHtQ= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1181842 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=Mc377Q0SEO5YRzauadz9HGKMljYlZoZyoMlAtqdeIwE= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1223286 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=aF4MwqOQ2FkXOwJjj1pg6szFHwzXfRCN22XufkjJG5Y= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1264730 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=uwQsvSQCZuQH1DHXokPwjnzgooc19EWbgTISm2VXA1U= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1306174 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=9E7OmFWii2wb4SR+kInWnDX+6mHQ4TS2SZKvd3RlrU= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1347618 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=46Abq2vH7wU4HGFopaUc9LGj4yDR3+cj7UbyxgauH4= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1389062 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=Sz+Oq3MX1VSLd417HBmnxOEMao6D+VS1Kggz5cEyTw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1430506 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=a++TKqbbhFqV1NB7XQdgdJQV0aHTB8jRDpb9ujW5apU= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1471950 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=fTidsHlzS9uCVR+D9wH2cLg9MeXxS9Mv1pG05JMd5k= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1513394 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=GBQfLXf1+0sE45y8ow00MU8ZTP668Vcm6ZG3IFlN14= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1554838 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=5i8WrFUZFnEs+pKvI98hXJWGa88KP9qv3QzAvEUAt8= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1596282 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=LVTddfmEXs9tNSsmBpnIH8v7Hf1IzQtm+P77tIRv+c= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1637726 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=dRfGnFkDlmDiz+v6kYQwf5O0xA2MmQgz1R2P+9XitHg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1679170 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=qsuXgrY7tlZOoIxXEyE9awbN8vFOKzilkTxTxg93c= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1720614 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=MZuRspPBSEidAQHdgEJhnwZjGmApJCYYQbB13liXhNM= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1762058 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=XMLxlK7Ld2Y3nbIcf8iCINaCnrei1pftc2S2SPkP3UY= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1803502 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=VUBP6kOHz+KdyvzMKwjbF1RxoydtKh2mUWhrwGJI= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1844946 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=HuaLZhYOCe8DyB2Hwd02+tOcVexfFh7dL1+bpdxN8= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1886390 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=1cAnbLgspbDrhRlcxMt7B0keQks7ZWLzZgBORuCI5mo= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1927834 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=zSH66wYAH6nfUXrGQ6YdnkSMKrBC91LfNfyVHVEpeI= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1969278 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=6o+KehaY569mwtqHxtqq4f2G6FqxjbOZ2HNtTlhxQGg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2010722 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=AE5iUpp7eUo71TS9w5HVSpjk9rr70b06SGa+AWqUA= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2052166 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=S6WU7svOjU9Oocx8q87PZaoszSsPMNAzUdekqmi4= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2093610 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=BYzADWO+HQjwYrg7AIGJaKhYBA6DbOvlBCbgIhqyI= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2135054 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=QSFb+dVZ5DAgoSTL8Tj+SnKX84YQBmGDcDa+9FI+KjU= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2176498 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=qzTuyMmMp+b6AiaJ0wSLBwunvczMsuogevSVEJrL2gw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2217942 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=GZPWKFOVGY1snjbOC69OXzVucp+hxXLwyQHELvP1k= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2259386 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=9jBeZ5A2s9ulqUQDF53LsKm8FxL+agSU47quNisRjg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2300830 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=gYA9rZGf1ztrqre9vjQjhYqGDqgdCjVQaAjrHeBT71Q= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2342274 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=bD4wAqS+coVW5Sr0eN7MRhwHLx3z+tLdByDJoaG6Rk= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2383718 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=xPQVHavNIyticpB39G+68BpZXkEgIpSVg4pypTrNK18= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2425162 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=xRNp9AAU98LoxERayGNlEnUfMTfpGcXNgrE8Qm7CDss= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2466606 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=0HnJhTgWQ25QLZQHJjlpCFqMtlxWVfHdaVqfPIkPc8= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2508050 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=sW0vLnmO7FczgKwRWeXyH60uASx1oSyhLvj3PBsfQc= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2549494 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=x4YL3ac4EFhGxstuil1A0mllP5m406LZDuGJx6orkFY= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2590938 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=QV82rDMD7QYFnTXAaJuVElsKsLAyrOQp5EQac0pgKsI= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2632382 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=bXkzJh+rbsagHV1itWvV43QD5+xOygyHmaENGcQj08= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2673826 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=o5NnyUfWrYC87xb9AcNXOjbcLUiPt3jCaqvdWM58Rss= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2715270 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=c5lNFSxsl3jkw8vz9x4VRgHKKQCJQcEkYXs3QeOe224= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2756714 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=LTPcbh50MC2zFp3rqz2sPQU7jeczPIghIxDUCwXALI4= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2798158 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=ZlVTKJ6NMnm77Fpzyq4qPbjv3pihPVMPf08qEPiIu4c= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2839602 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=BWxanq2VYkPD2pEGyH9qCksmIgCdbdh3y0XtRkJTJs= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2881046 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=ZsyxWbRz38xyPx0VFrNvyw9NGY8RLW3eKJf3xNJRIFA= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2922490 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=n1WuUJfKlgb+cxZZvyMIPmCu9LWLoVrwaEgjAKu64= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2963934 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=kO24LVOg9SuF7IHOY31Rz7conkMOYjncy8ltXYWDGs= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex/5OFlywKlKL960j2TUf9tKsQmZVbiA8MIs38YYLYc4=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 5OFlywKlKL960j2TUf9tKsQmZVbiA8MIs38YYLYc4=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.786 s
+[[1;34mINFO[m] Finished at: 2023-10-04T00:33:53-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.1.1:nondex[m [1m(default-cli)[m on project [36mcommons-collections4[m: [1;31mUnable to execute mojo[m: No tests were executed!  (Set -DfailIfNoTests=false to ignore this error.) -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+HEAD is now at 8873f380 Bump actions/cache from 2.1.6 to 2.1.7
+

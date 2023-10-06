@@ -1,0 +1,622 @@
+
+
+Cloning into '/home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components'...
+
+Note: switching to '5f29cc86b17b6db36cc617805295eb951b6504a1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 5f29cc86b Cannot mock some models with mockito (#1891)
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Adobe Experience Manager Core WCM Components Parent                [pom]
+[[1;34mINFO[m] Adobe Experience Manager Core WCM Components JUnit Testing         [jar]
+[[1;34mINFO[m] Adobe Experience Manager Core WCM Components Core Bundle        [bundle]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mcom.adobe.cq:core.wcm.components.parent[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Adobe Experience Manager Core WCM Components Parent 2.17.13-SNAPSHOT [1/3][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36mcore.wcm.components.parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.12:check[m [1m(default)[m @ [36mcore.wcm.components.parent[0;1m ---[m
+[[1;34mINFO[m] Enabled default license matchers.
+[[1;34mINFO[m] Will parse SCM ignores for exclusions...
+[[1;34mINFO[m] Finished adding exclusions from SCM ignore files.
+[[1;34mINFO[m] 61 implicit excludes (use -debug for more details).
+[[1;34mINFO[m] Exclude: **/src/main/appended-resources/META-INF/*
+[[1;34mINFO[m] Exclude: velocity.log
+[[1;34mINFO[m] Exclude: **/target/*
+[[1;34mINFO[m] Exclude: **/*.md
+[[1;34mINFO[m] Exclude: maven-eclipse.xml
+[[1;34mINFO[m] Exclude: **/jcr_root/**/*.xml
+[[1;34mINFO[m] Exclude: **/META-INF/vault/settings.xml
+[[1;34mINFO[m] Exclude: **/.vltignore
+[[1;34mINFO[m] Exclude: **/.vlt
+[[1;34mINFO[m] Exclude: **/*.svg
+[[1;34mINFO[m] Exclude: **/*.json
+[[1;34mINFO[m] Exclude: DEPENDENCIES
+[[1;34mINFO[m] Exclude: **/*.rej
+[[1;34mINFO[m] Exclude: Jenkinsfile
+[[1;34mINFO[m] Exclude: jenkinsfiles/**/*
+[[1;34mINFO[m] Exclude: **/*.iml
+[[1;34mINFO[m] Exclude: **/*.eslintrc
+[[1;34mINFO[m] Exclude: **/*.editorconfig
+[[1;34mINFO[m] Exclude: **/*.stylelintrc.yaml
+[[1;34mINFO[m] Exclude: **/*.eslintignore
+[[1;34mINFO[m] Exclude: **/node/**
+[[1;34mINFO[m] Exclude: **/node_modules/**
+[[1;34mINFO[m] Exclude: **/.github/**
+[[1;34mINFO[m] Exclude: **/test/resources/mockito-extensions/*
+[[1;34mINFO[m] 1 resources included (use -debug for more details)
+[[1;34mINFO[m] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 1 licenses.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mcore.wcm.components.parent[0;1m ---[m
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/parent/pom.xml to /home/neo/.m2/repository/com/adobe/cq/core.wcm.components.parent/2.17.13-SNAPSHOT/core.wcm.components.parent-2.17.13-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36mcom.adobe.cq:core.wcm.components.junit.core[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding Adobe Experience Manager Core WCM Components JUnit Testing 2.17.13-SNAPSHOT [2/3][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36mcore.wcm.components.junit.core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mcore.wcm.components.junit.core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/testing/junit/core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcore.wcm.components.junit.core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 16 source files to /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/testing/junit/core/target/classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/testing/junit/core/src/main/java/com/adobe/cq/wcm/core/components/testing/MockPublishUtils.java: /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/testing/junit/core/src/main/java/com/adobe/cq/wcm/core/components/testing/MockPublishUtils.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/testing/junit/core/src/main/java/com/adobe/cq/wcm/core/components/testing/MockPublishUtils.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:4.2.1:manifest[m [1m(scr-metadata)[m @ [36mcore.wcm.components.junit.core[0;1m ---[m
+[[1;34mINFO[m] No previous run data found, generating manifest.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mcore.wcm.components.junit.core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/testing/junit/core/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mcore.wcm.components.junit.core[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mcore.wcm.components.junit.core[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mcore.wcm.components.junit.core[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/testing/junit/core/target/core.wcm.components.junit.core-2.17.13-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:4.2.1:baseline[m [1m(baseline)[m @ [36mcore.wcm.components.junit.core[0;1m ---[m
+[[1;34mINFO[m] Baseline Report - Generated by Apache Felix Maven Bundle Plugin on 2023-10-04T00:23Z based on Bnd - see http://www.aqute.biz/Bnd/Bnd
+[[1;34mINFO[m] Comparing bundle core.wcm.components.junit.core version 2.17.13-SNAPSHOT to version 2.17.12
+[[1;34mINFO[m] 
+[[1;34mINFO[m]   PACKAGE_NAME                                       DELTA      CUR_VER    BASE_VER   REC_VER    WARNINGS  
+[[1;34mINFO[m] = ================================================== ========== ========== ========== ========== ==========
+[[1;34mINFO[m]   com.adobe.cq.wcm.core.components.testing           unchanged  0.0.0      0.0.0      0.0.0      -         
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m] Baseline analysis complete, 0 error(s), 0 warning(s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.12:check[m [1m(default)[m @ [36mcore.wcm.components.junit.core[0;1m ---[m
+[[1;34mINFO[m] Enabled default license matchers.
+[[1;34mINFO[m] Will parse SCM ignores for exclusions...
+[[1;34mINFO[m] Finished adding exclusions from SCM ignore files.
+[[1;34mINFO[m] 61 implicit excludes (use -debug for more details).
+[[1;34mINFO[m] Exclude: **/src/main/appended-resources/META-INF/*
+[[1;34mINFO[m] Exclude: velocity.log
+[[1;34mINFO[m] Exclude: **/target/*
+[[1;34mINFO[m] Exclude: **/*.md
+[[1;34mINFO[m] Exclude: maven-eclipse.xml
+[[1;34mINFO[m] Exclude: **/jcr_root/**/*.xml
+[[1;34mINFO[m] Exclude: **/META-INF/vault/settings.xml
+[[1;34mINFO[m] Exclude: **/.vltignore
+[[1;34mINFO[m] Exclude: **/.vlt
+[[1;34mINFO[m] Exclude: **/*.svg
+[[1;34mINFO[m] Exclude: **/*.json
+[[1;34mINFO[m] Exclude: DEPENDENCIES
+[[1;34mINFO[m] Exclude: **/*.rej
+[[1;34mINFO[m] Exclude: Jenkinsfile
+[[1;34mINFO[m] Exclude: jenkinsfiles/**/*
+[[1;34mINFO[m] Exclude: **/*.iml
+[[1;34mINFO[m] Exclude: **/*.eslintrc
+[[1;34mINFO[m] Exclude: **/*.editorconfig
+[[1;34mINFO[m] Exclude: **/*.stylelintrc.yaml
+[[1;34mINFO[m] Exclude: **/*.eslintignore
+[[1;34mINFO[m] Exclude: **/node/**
+[[1;34mINFO[m] Exclude: **/node_modules/**
+[[1;34mINFO[m] Exclude: **/.github/**
+[[1;34mINFO[m] Exclude: **/test/resources/mockito-extensions/*
+[[1;34mINFO[m] Exclude: **/*.eslintrc
+[[1;34mINFO[m] Exclude: **/*.editorconfig
+[[1;34mINFO[m] Exclude: **/*.stylelintrc.yaml
+[[1;34mINFO[m] Exclude: **/*.eslintignore
+[[1;34mINFO[m] Exclude: **/node/**
+[[1;34mINFO[m] Exclude: **/node_modules/**
+[[1;34mINFO[m] 17 resources included (use -debug for more details)
+[[1;34mINFO[m] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 17 licenses.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mcore.wcm.components.junit.core[0;1m ---[m
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/testing/junit/core/target/core.wcm.components.junit.core-2.17.13-SNAPSHOT.jar to /home/neo/.m2/repository/com/adobe/cq/core.wcm.components.junit.core/2.17.13-SNAPSHOT/core.wcm.components.junit.core-2.17.13-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/testing/junit/core/pom.xml to /home/neo/.m2/repository/com/adobe/cq/core.wcm.components.junit.core/2.17.13-SNAPSHOT/core.wcm.components.junit.core-2.17.13-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mcom.adobe.cq:core.wcm.components.core[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Adobe Experience Manager Core WCM Components Core Bundle 2.17.13-SNAPSHOT [3/3][m
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;33mWARNING[m] The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[[1;33mWARNING[m] The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 231 source files to /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/target/classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/Utils.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/Utils.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/ImageAreaImpl.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/ImageAreaImpl.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:4.2.1:manifest[m [1m(scr-metadata)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] No previous run data found, generating manifest.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspotbugs-maven-plugin:4.0.4:check[m [1m(find-bugs)[0;1m > [0;1m:spotbugs[m @ [36mcore.wcm.components.core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspotbugs-maven-plugin:4.0.4:spotbugs[m [1m(spotbugs)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Fork Value is true
+[[1;34mINFO[m] Done SpotBugs Analysis....
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspotbugs-maven-plugin:4.0.4:check[m [1m(find-bugs)[0;1m < [0;1m:spotbugs[m @ [36mcore.wcm.components.core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspotbugs-maven-plugin:4.0.4:check[m [1m(find-bugs)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] BugInstance size is 0
+[[1;34mINFO[m] Error size is 0
+[[1;34mINFO[m] No errors/warnings found
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:instrument[m [1m(default-instrument)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 462 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 117 source files to /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/target/test-classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/src/test/java/com/adobe/cq/wcm/core/components/internal/models/v1/TeaserImplTest.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/src/test/java/com/adobe/cq/wcm/core/components/internal/models/v1/TeaserImplTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/src/test/java/com/adobe/cq/wcm/core/components/internal/servlets/contentfragment/ModelDataSourceServletTest.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/src/test/java/com/adobe/cq/wcm/core/components/internal/servlets/contentfragment/ModelDataSourceServletTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:restore-instrumented-classes[m [1m(default-restore-instrumented-classes)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:4.2.1:bundle[m [1m(default-bundle)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.12:check[m [1m(default)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Enabled default license matchers.
+[[1;34mINFO[m] Will parse SCM ignores for exclusions...
+[[1;34mINFO[m] Parsing exclusions from /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/.gitignore
+[[1;34mINFO[m] Finished adding exclusions from SCM ignore files.
+[[1;34mINFO[m] 62 implicit excludes (use -debug for more details).
+[[1;34mINFO[m] Exclude: **/src/main/appended-resources/META-INF/*
+[[1;34mINFO[m] Exclude: velocity.log
+[[1;34mINFO[m] Exclude: **/target/*
+[[1;34mINFO[m] Exclude: **/*.md
+[[1;34mINFO[m] Exclude: maven-eclipse.xml
+[[1;34mINFO[m] Exclude: **/jcr_root/**/*.xml
+[[1;34mINFO[m] Exclude: **/META-INF/vault/settings.xml
+[[1;34mINFO[m] Exclude: **/.vltignore
+[[1;34mINFO[m] Exclude: **/.vlt
+[[1;34mINFO[m] Exclude: **/*.svg
+[[1;34mINFO[m] Exclude: **/*.json
+[[1;34mINFO[m] Exclude: DEPENDENCIES
+[[1;34mINFO[m] Exclude: **/*.rej
+[[1;34mINFO[m] Exclude: Jenkinsfile
+[[1;34mINFO[m] Exclude: jenkinsfiles/**/*
+[[1;34mINFO[m] Exclude: **/*.iml
+[[1;34mINFO[m] Exclude: **/*.eslintrc
+[[1;34mINFO[m] Exclude: **/*.editorconfig
+[[1;34mINFO[m] Exclude: **/*.stylelintrc.yaml
+[[1;34mINFO[m] Exclude: **/*.eslintignore
+[[1;34mINFO[m] Exclude: **/node/**
+[[1;34mINFO[m] Exclude: **/node_modules/**
+[[1;34mINFO[m] Exclude: **/.github/**
+[[1;34mINFO[m] Exclude: **/test/resources/mockito-extensions/*
+[[1;34mINFO[m] 371 resources included (use -debug for more details)
+[[1;34mINFO[m] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 352 licenses.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:4.2.1:baseline[m [1m(baseline)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Baseline Report - Generated by Apache Felix Maven Bundle Plugin on 2023-10-04T00:23Z based on Bnd - see http://www.aqute.biz/Bnd/Bnd
+[[1;34mINFO[m] Comparing bundle core.wcm.components.core version 2.17.13-SNAPSHOT to version 2.17.12
+[[1;34mINFO[m] 
+[[1;34mINFO[m]   PACKAGE_NAME                                       DELTA      CUR_VER    BASE_VER   REC_VER    WARNINGS  
+[[1;34mINFO[m] = ================================================== ========== ========== ========== ========== ==========
+[[1;34mINFO[m]   com.adobe.cq.wcm.core.components.commons.editor.dialog.childreneditor unchanged  1.0.0      1.0.0      1.0.0      -         
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m]   com.adobe.cq.wcm.core.components.commons.editor.dialog.inherited unchanged  1.1.0      1.1.0      1.1.0      -         
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m]   com.adobe.cq.wcm.core.components.commons.link      unchanged  1.1.0      1.1.0      1.1.0      -         
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m]   com.adobe.cq.wcm.core.components.config            unchanged  1.1.0      1.1.0      1.1.0      -         
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m] ~ com.adobe.cq.wcm.core.components.models            changed    12.23.1    12.23.0    12.23.1    -         
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Accordion
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Breadcrumb
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Button
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Carousel
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Component
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Container
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Download
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Embed
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.ExperienceFragment
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Image
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.LanguageNavigation
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.LanguageNavigationItem
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.LayoutContainer
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.List
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.ListItem
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Navigation
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.NavigationItem
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Page
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.PdfViewer
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.ProgressBar
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Search
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Separator
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.SocialMediaHelper
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Tabs
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Teaser
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Text
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.Title
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      - version 12.23.0
+[[1;34mINFO[m]      + version 12.23.1
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m] ~ com.adobe.cq.wcm.core.components.models.contentfragment changed    1.5.1      1.5.0      1.5.1      -         
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.contentfragment.ContentFragment
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.contentfragment.ContentFragmentList
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      - version 1.5.0
+[[1;34mINFO[m]      + version 1.5.1
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m]   com.adobe.cq.wcm.core.components.models.datalayer  unchanged  1.3.1      1.3.1      1.3.1      -         
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m]   com.adobe.cq.wcm.core.components.models.datalayer.builder unchanged  1.2.0      1.2.0      1.2.0      -         
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m] + com.adobe.cq.wcm.core.components.models.datalayer.jackson added      1.0.0      0.0.0      1.0.0      -         
+[[1;34mINFO[m]      + class com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]          + extends com.fasterxml.jackson.databind.ser.std.StdSerializer
+[[1;34mINFO[m]          + method <init>()
+[[1;34mINFO[m]              + return void
+[[1;34mINFO[m]          + method <init>(java.lang.Class)
+[[1;34mINFO[m]              + return void
+[[1;34mINFO[m]          + method clone()
+[[1;34mINFO[m]              + access protected
+[[1;34mINFO[m]              + annotated jdk.internal.HotSpotIntrinsicCandidate
+[[1;34mINFO[m]              + return java.lang.Object
+[[1;34mINFO[m]          + method equals(java.lang.Object)
+[[1;34mINFO[m]              + return boolean
+[[1;34mINFO[m]          + method finalize()
+[[1;34mINFO[m]              + access protected
+[[1;34mINFO[m]              + return void
+[[1;34mINFO[m]          + method hashCode()
+[[1;34mINFO[m]              + annotated jdk.internal.HotSpotIntrinsicCandidate
+[[1;34mINFO[m]              + return int
+[[1;34mINFO[m]          + method serialize(com.adobe.cq.wcm.core.components.models.datalayer.ComponentData,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)
+[[1;34mINFO[m]              + return void
+[[1;34mINFO[m]          + method toString()
+[[1;34mINFO[m]              + return java.lang.String
+[[1;34mINFO[m]      + version 1.0.0
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m] ~ com.adobe.cq.wcm.core.components.models.embeddable changed    1.1.1      1.1.0      1.1.1      -         
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.embeddable.Embeddable
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      ~ interface com.adobe.cq.wcm.core.components.models.embeddable.YouTube
+[[1;34mINFO[m]          ~ method getData()
+[[1;34mINFO[m]              ~ annotated com.fasterxml.jackson.databind.annotation.JsonSerialize
+[[1;34mINFO[m]                  - property using=com.adobe.cq.wcm.core.components.internal.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]                  + property using=com.adobe.cq.wcm.core.components.models.datalayer.jackson.ComponentDataModelSerializer
+[[1;34mINFO[m]      - version 1.1.0
+[[1;34mINFO[m]      + version 1.1.1
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m]   com.adobe.cq.wcm.core.components.models.form       unchanged  14.3.0     14.3.0     14.3.0     -         
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m]   com.adobe.cq.wcm.core.components.services.embed    unchanged  1.0.0      1.0.0      1.0.0      -         
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m]   com.adobe.cq.wcm.core.components.services.form     unchanged  1.0.0      1.0.0      1.0.0      -         
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m]   com.adobe.cq.wcm.core.components.services.link     unchanged  1.1.0      1.1.0      1.1.0      -         
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m]   com.adobe.cq.wcm.core.components.util              unchanged  1.4.0      1.4.0      1.4.0      -         
+[[1;34mINFO[m] -----------------------------------------------------------------------------------------------------------
+[[1;34mINFO[m] Baseline analysis complete, 0 error(s), 0 warning(s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:check[m [1m(check-coverage)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file:/home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/target/core.wcm.components.core-2.17.13-SNAPSHOT.jar to /home/neo/.m2/repository/com/adobe/cq/core.wcm.components.core/2.17.13-SNAPSHOT/core.wcm.components.core-2.17.13-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/pom.xml to /home/neo/.m2/repository/com/adobe/cq/core.wcm.components.core/2.17.13-SNAPSHOT/core.wcm.components.core-2.17.13-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:4.2.1:install[m [1m(default-install)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Installing com/adobe/cq/core.wcm.components.core/2.17.13-SNAPSHOT/core.wcm.components.core-2.17.13-SNAPSHOT.jar
+[[1;34mINFO[m] Writing OBR metadata
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Adobe Experience Manager Core WCM Components Parent 2.17.13-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Adobe Experience Manager Core WCM Components Parent  [1;32mSUCCESS[m [  0.513 s]
+[[1;34mINFO[m] Adobe Experience Manager Core WCM Components JUnit Testing [1;32mSUCCESS[m [  2.173 s]
+[[1;34mINFO[m] Adobe Experience Manager Core WCM Components Core Bundle [1;32mSUCCESS[m [ 16.782 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  20.708 s
+[[1;34mINFO[m] Finished at: 2023-10-04T00:23:33-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mcom.adobe.cq:core.wcm.components.core[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Adobe Experience Manager Core WCM Components Core Bundle 2.17.13-SNAPSHOT[m
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;33mWARNING[m] The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[[1;33mWARNING[m] The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:4.2.1:manifest[m [1m(scr-metadata)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Stale files detected, re-generating manifest.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspotbugs-maven-plugin:4.0.4:check[m [1m(find-bugs)[0;1m > [0;1m:spotbugs[m @ [36mcore.wcm.components.core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspotbugs-maven-plugin:4.0.4:spotbugs[m [1m(spotbugs)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Fork Value is true
+[[1;34mINFO[m] Done SpotBugs Analysis....
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspotbugs-maven-plugin:4.0.4:check[m [1m(find-bugs)[0;1m < [0;1m:spotbugs[m @ [36mcore.wcm.components.core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspotbugs-maven-plugin:4.0.4:check[m [1m(find-bugs)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] BugInstance size is 0
+[[1;34mINFO[m] Error size is 0
+[[1;34mINFO[m] No errors/warnings found
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:instrument[m [1m(default-instrument)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 462 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  13.479 s
+[[1;34mINFO[m] Finished at: 2023-10-04T00:23:48-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.22.2:test[m [1m(default-test)[m on project [36mcore.wcm.components.core[m: [1;31mNo tests were executed!  (Set -DfailIfNoTests=false to ignore this error.)[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mcom.adobe.cq:core.wcm.components.core[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Adobe Experience Manager Core WCM Components Core Bundle 2.17.13-SNAPSHOT[m
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex-maven-plugin:2.1.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcore.wcm.components.core[0;1m >>>[m
+[[1;33mWARNING[m] The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[[1;33mWARNING[m] The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/neo/cs527/nondex_upgrade_testing/aem-core-wcm-components/bundles/core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:4.2.1:manifest[m [1m(scr-metadata)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Stale files detected, re-generating manifest.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspotbugs-maven-plugin:4.0.4:check[m [1m(find-bugs)[0;1m > [0;1m:spotbugs[m @ [36mcore.wcm.components.core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspotbugs-maven-plugin:4.0.4:spotbugs[m [1m(spotbugs)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] Fork Value is true
+     [java] The following classes needed for analysis were missing:
+     [java]   org.jacoco.agent.rt.internal_1f1cc91.Offline
+[[1;34mINFO[m] Done SpotBugs Analysis....
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspotbugs-maven-plugin:4.0.4:check[m [1m(find-bugs)[0;1m < [0;1m:spotbugs[m @ [36mcore.wcm.components.core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspotbugs-maven-plugin:4.0.4:check[m [1m(find-bugs)[m @ [36mcore.wcm.components.core[0;1m ---[m
+[[1;34mINFO[m] BugInstance size is 10
+[[1;34mINFO[m] Error size is 0
+[[1;34mINFO[m] Total bugs: 10
+[[1;31mERROR[m] High: com.adobe.cq.wcm.core.components.internal.link.LinkHandler$1 is serializable but also an inner class of a non-serializable class [com.adobe.cq.wcm.core.components.internal.link.LinkHandler$1] At LinkHandler.java:[line 182] SE_BAD_FIELD_INNER_CLASS
+[[1;31mERROR[m] High: com.adobe.cq.wcm.core.components.internal.link.LinkHandler$2 is serializable but also an inner class of a non-serializable class [com.adobe.cq.wcm.core.components.internal.link.LinkHandler$2] At LinkHandler.java:[lines 203-207] SE_BAD_FIELD_INNER_CLASS
+[[1;31mERROR[m] Medium: Redundant nullcheck of resourceResolver, which is known to be non-null in com.adobe.cq.wcm.core.components.internal.models.v1.ClientLibrariesImpl.getCategoriesFromComponents() [com.adobe.cq.wcm.core.components.internal.models.v1.ClientLibrariesImpl, com.adobe.cq.wcm.core.components.internal.models.v1.ClientLibrariesImpl] Redundant null check at ClientLibrariesImpl.java:[line 286]Another occurrence at ClientLibrariesImpl.java:[line 296] RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE
+[[1;31mERROR[m] Medium: Redundant nullcheck of resourceResolver, which is known to be non-null in com.adobe.cq.wcm.core.components.internal.models.v1.ComponentFilesImpl.getPaths() [com.adobe.cq.wcm.core.components.internal.models.v1.ComponentFilesImpl, com.adobe.cq.wcm.core.components.internal.models.v1.ComponentFilesImpl] Redundant null check at ComponentFilesImpl.java:[line 90]Another occurrence at ComponentFilesImpl.java:[line 95] RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE
+[[1;31mERROR[m] Medium: Redundant nullcheck of attrs, which is known to be non-null in com.adobe.cq.wcm.core.components.internal.models.v1.ImageAreaImpl.getTarget() [com.adobe.cq.wcm.core.components.internal.models.v1.ImageAreaImpl] Redundant null check at ImageAreaImpl.java:[line 100] RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE
+[[1;31mERROR[m] High: com.adobe.cq.wcm.core.components.internal.models.v1.TeaserImpl$1 is serializable but also an inner class of a non-serializable class [com.adobe.cq.wcm.core.components.internal.models.v1.TeaserImpl$1] At TeaserImpl.java:[lines 161-164] SE_BAD_FIELD_INNER_CLASS
+[[1;31mERROR[m] Medium: Redundant nullcheck of itemIterator, which is known to be non-null in com.adobe.cq.wcm.core.components.internal.models.v1.form.OptionsImpl.populateOptionItemsFromDatasource() [com.adobe.cq.wcm.core.components.internal.models.v1.form.OptionsImpl] Redundant null check at OptionsImpl.java:[line 221] RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE
+[[1;31mERROR[m] High: com.adobe.cq.wcm.core.components.internal.services.embed.OEmbedUrlProcessor$1 is serializable but also an inner class of a non-serializable class [com.adobe.cq.wcm.core.components.internal.services.embed.OEmbedUrlProcessor$1] At OEmbedUrlProcessor.java:[lines 54-58] SE_BAD_FIELD_INNER_CLASS
+[[1;31mERROR[m] High: com.adobe.cq.wcm.core.components.internal.services.embed.PinterestUrlProcessor$1 is serializable but also an inner class of a non-serializable class [com.adobe.cq.wcm.core.components.internal.services.embed.PinterestUrlProcessor$1] At PinterestUrlProcessor.java:[lines 47-49] SE_BAD_FIELD_INNER_CLASS
+[[1;31mERROR[m] Medium: Redundant nullcheck of dataSourceValueMap, which is known to be non-null in com.adobe.cq.wcm.core.components.internal.servlets.ClientLibraryCategoriesDataSourceServlet.doGet(SlingHttpServletRequest, SlingHttpServletResponse) [com.adobe.cq.wcm.core.components.internal.servlets.ClientLibraryCategoriesDataSourceServlet] Redundant null check at ClientLibraryCategoriesDataSourceServlet.java:[line 68] RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE
+[[1;34mINFO[m] 
+
+
+To see bug detail using the Spotbugs GUI, use the following command "mvn spotbugs:gui"
+
+
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  14.439 s
+[[1;34mINFO[m] Finished at: 2023-10-04T00:24:03-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32mcom.github.spotbugs:spotbugs-maven-plugin:4.0.4:check[m [1m(find-bugs)[m on project [36mcore.wcm.components.core[m: [1;31mfailed with 10 bugs and 0 errors [m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+HEAD is now at 86eea6a48 Teaser: ensure description inherited from page properties is HTML-escaped, because the teaser component expected the description to be valid HTML (from RTE), but the page properties dialog only provides a plain text field (#1883)
+

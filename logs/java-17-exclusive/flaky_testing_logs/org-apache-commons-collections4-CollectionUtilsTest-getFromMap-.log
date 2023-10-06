@@ -1,0 +1,2305 @@
+
+
+Cloning into '/home/neo/cs527/nondex_upgrade_testing/commons-collections'...
+
+Note: switching to '81e3a7ec0492148724da4512fcefcb47ba82894a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 81e3a7ec Update commons-codec from 1.14 to 1.15.
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36morg.apache.commons:commons-collections4[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Collections 4.5-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.5/jacoco-maven-plugin-0.8.5.pom
+Progress (1): 2.7/4.4 kB
+Progress (1): 4.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.5/jacoco-maven-plugin-0.8.5.pom (4.4 kB at 844 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.5/org.jacoco.build-0.8.5.pom
+Progress (1): 2.7/41 kB
+Progress (1): 5.5/41 kB
+Progress (1): 8.2/41 kB
+Progress (1): 11/41 kB 
+Progress (1): 14/41 kB
+Progress (1): 16/41 kB
+Progress (1): 19/41 kB
+Progress (1): 21/41 kB
+Progress (1): 24/41 kB
+Progress (1): 27/41 kB
+Progress (1): 30/41 kB
+Progress (1): 32/41 kB
+Progress (1): 35/41 kB
+Progress (1): 38/41 kB
+Progress (1): 41/41 kB
+Progress (1): 41 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.5/org.jacoco.build-0.8.5.pom (41 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.5/jacoco-maven-plugin-0.8.5.jar
+Progress (1): 4.1/53 kB
+Progress (1): 8.2/53 kB
+Progress (1): 12/53 kB 
+Progress (1): 16/53 kB
+Progress (1): 20/53 kB
+Progress (1): 25/53 kB
+Progress (1): 29/53 kB
+Progress (1): 33/53 kB
+Progress (1): 37/53 kB
+Progress (1): 41/53 kB
+Progress (1): 45/53 kB
+Progress (1): 49/53 kB
+Progress (1): 53/53 kB
+Progress (1): 53 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.5/jacoco-maven-plugin-0.8.5.jar (53 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.pom
+Progress (1): 3.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.pom (3.3 kB at 144 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.jar
+Progress (1): 4.1/36 kB
+Progress (1): 8.2/36 kB
+Progress (1): 12/36 kB 
+Progress (1): 16/36 kB
+Progress (1): 20/36 kB
+Progress (1): 25/36 kB
+Progress (1): 29/36 kB
+Progress (1): 33/36 kB
+Progress (1): 36 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.jar (36 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.pom (3.2 kB at 139 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.6.2/junit-bom-5.6.2.pom
+Progress (1): 4.1/4.9 kB
+Progress (1): 4.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.6.2/junit-bom-5.6.2.pom (4.9 kB at 247 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.pom
+Progress (1): 2.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.pom (2.8 kB at 135 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.pom (3.2 kB at 100 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.pom (3.2 kB at 153 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.6.2/junit-vintage-engine-5.6.2.pom
+Progress (1): 3.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.6.2/junit-vintage-engine-5.6.2.pom (3.3 kB at 133 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/easymock/easymock/4.2/easymock-4.2.pom
+Progress (1): 4.1/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 11 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/easymock/easymock/4.2/easymock-4.2.pom (11 kB at 470 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/easymock/easymock-parent/4.2/easymock-parent-4.2.pom
+Progress (1): 4.1/19 kB
+Progress (1): 8.2/19 kB
+Progress (1): 12/19 kB 
+Progress (1): 16/19 kB
+Progress (1): 19 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/easymock/easymock-parent/4.2/easymock-parent-4.2.pom (19 kB at 819 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.1/objenesis-3.1.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.1/objenesis-3.1.pom (3.5 kB at 176 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/3.1/objenesis-parent-3.1.pom
+Progress (1): 4.1/18 kB
+Progress (1): 8.2/18 kB
+Progress (1): 12/18 kB 
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/3.1/objenesis-parent-3.1.pom (18 kB at 840 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.6.2/junit-vintage-engine-5.6.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar
+Progress (1): 4.1/97 kB
+Progress (1): 8.2/97 kB
+Progress (1): 12/97 kB 
+Progress (1): 16/97 kB
+Progress (1): 20/97 kB
+Progress (1): 24/97 kB
+Progress (1): 28/97 kB
+Progress (1): 32/97 kB
+Progress (1): 36/97 kB
+Progress (1): 40/97 kB
+Progress (1): 44/97 kB
+Progress (1): 49/97 kB
+Progress (1): 53/97 kB
+Progress (1): 57/97 kB
+Progress (1): 61/97 kB
+Progress (1): 65/97 kB
+Progress (1): 69/97 kB
+Progress (1): 73/97 kB
+Progress (1): 77/97 kB
+Progress (1): 81/97 kB
+Progress (1): 85/97 kB
+Progress (1): 90/97 kB
+Progress (1): 94/97 kB
+Progress (1): 97 kB   
+Progress (2): 97 kB | 4.1/154 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar (97 kB at 2.4 MB/s)
+Progress (1): 8.2/154 kB
+Progress (2): 8.2/154 kB | 4.1/209 kB
+                                     
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.13/junit-4.13.jar
+Progress (2): 8.2/154 kB | 8.2/209 kB
+Progress (2): 8.2/154 kB | 12/209 kB 
+Progress (2): 8.2/154 kB | 16/209 kB
+Progress (2): 12/154 kB | 16/209 kB 
+Progress (2): 16/154 kB | 16/209 kB
+Progress (2): 16/154 kB | 20/209 kB
+Progress (2): 20/154 kB | 20/209 kB
+Progress (2): 25/154 kB | 20/209 kB
+Progress (2): 29/154 kB | 20/209 kB
+Progress (2): 33/154 kB | 20/209 kB
+Progress (2): 33/154 kB | 25/209 kB
+Progress (2): 33/154 kB | 29/209 kB
+Progress (2): 33/154 kB | 33/209 kB
+Progress (2): 37/154 kB | 33/209 kB
+Progress (2): 37/154 kB | 37/209 kB
+Progress (2): 41/154 kB | 37/209 kB
+Progress (2): 45/154 kB | 37/209 kB
+Progress (2): 49/154 kB | 37/209 kB
+Progress (2): 49/154 kB | 41/209 kB
+Progress (2): 53/154 kB | 41/209 kB
+Progress (2): 57/154 kB | 41/209 kB
+Progress (2): 61/154 kB | 41/209 kB
+Progress (2): 66/154 kB | 41/209 kB
+Progress (2): 66/154 kB | 45/209 kB
+Progress (2): 66/154 kB | 49/209 kB
+Progress (3): 66/154 kB | 49/209 kB | 2.7/64 kB
+Progress (3): 66/154 kB | 53/209 kB | 2.7/64 kB
+Progress (3): 66/154 kB | 57/209 kB | 2.7/64 kB
+Progress (3): 66/154 kB | 61/209 kB | 2.7/64 kB
+Progress (3): 66/154 kB | 66/209 kB | 2.7/64 kB
+Progress (3): 70/154 kB | 66/209 kB | 2.7/64 kB
+Progress (3): 74/154 kB | 66/209 kB | 2.7/64 kB
+Progress (3): 78/154 kB | 66/209 kB | 2.7/64 kB
+Progress (3): 82/154 kB | 66/209 kB | 2.7/64 kB
+Progress (3): 82/154 kB | 70/209 kB | 2.7/64 kB
+Progress (3): 86/154 kB | 70/209 kB | 2.7/64 kB
+Progress (3): 90/154 kB | 70/209 kB | 2.7/64 kB
+Progress (3): 94/154 kB | 70/209 kB | 2.7/64 kB
+Progress (3): 98/154 kB | 70/209 kB | 2.7/64 kB
+Progress (3): 98/154 kB | 74/209 kB | 2.7/64 kB
+Progress (3): 98/154 kB | 78/209 kB | 2.7/64 kB
+Progress (3): 102/154 kB | 78/209 kB | 2.7/64 kB
+Progress (3): 102/154 kB | 82/209 kB | 2.7/64 kB
+Progress (3): 106/154 kB | 82/209 kB | 2.7/64 kB
+Progress (3): 111/154 kB | 82/209 kB | 2.7/64 kB
+Progress (3): 111/154 kB | 86/209 kB | 2.7/64 kB
+Progress (3): 115/154 kB | 86/209 kB | 2.7/64 kB
+Progress (3): 115/154 kB | 90/209 kB | 2.7/64 kB
+Progress (3): 115/154 kB | 94/209 kB | 2.7/64 kB
+Progress (3): 119/154 kB | 94/209 kB | 2.7/64 kB
+Progress (3): 123/154 kB | 94/209 kB | 2.7/64 kB
+Progress (3): 127/154 kB | 94/209 kB | 2.7/64 kB
+Progress (3): 127/154 kB | 98/209 kB | 2.7/64 kB
+Progress (3): 131/154 kB | 98/209 kB | 2.7/64 kB
+Progress (3): 131/154 kB | 102/209 kB | 2.7/64 kB
+Progress (3): 135/154 kB | 102/209 kB | 2.7/64 kB
+Progress (3): 135/154 kB | 106/209 kB | 2.7/64 kB
+Progress (3): 139/154 kB | 106/209 kB | 2.7/64 kB
+Progress (3): 139/154 kB | 111/209 kB | 2.7/64 kB
+Progress (3): 139/154 kB | 115/209 kB | 2.7/64 kB
+Progress (3): 143/154 kB | 115/209 kB | 2.7/64 kB
+Progress (3): 143/154 kB | 119/209 kB | 2.7/64 kB
+Progress (3): 143/154 kB | 123/209 kB | 2.7/64 kB
+Progress (3): 143/154 kB | 127/209 kB | 2.7/64 kB
+Progress (3): 143/154 kB | 131/209 kB | 2.7/64 kB
+Progress (3): 147/154 kB | 131/209 kB | 2.7/64 kB
+Progress (4): 147/154 kB | 131/209 kB | 2.7/64 kB | 2.8/174 kB
+Progress (4): 152/154 kB | 131/209 kB | 2.7/64 kB | 2.8/174 kB
+Progress (4): 152/154 kB | 135/209 kB | 2.7/64 kB | 2.8/174 kB
+Progress (4): 154 kB | 135/209 kB | 2.7/64 kB | 2.8/174 kB    
+Progress (4): 154 kB | 139/209 kB | 2.7/64 kB | 2.8/174 kB
+Progress (4): 154 kB | 143/209 kB | 2.7/64 kB | 2.8/174 kB
+Progress (4): 154 kB | 147/209 kB | 2.7/64 kB | 2.8/174 kB
+Progress (4): 154 kB | 147/209 kB | 5.5/64 kB | 2.8/174 kB
+Progress (4): 154 kB | 152/209 kB | 5.5/64 kB | 2.8/174 kB
+Progress (4): 154 kB | 156/209 kB | 5.5/64 kB | 2.8/174 kB
+Progress (4): 154 kB | 156/209 kB | 8.2/64 kB | 2.8/174 kB
+Progress (4): 154 kB | 160/209 kB | 8.2/64 kB | 2.8/174 kB
+Progress (4): 154 kB | 160/209 kB | 11/64 kB | 2.8/174 kB 
+Progress (4): 154 kB | 160/209 kB | 11/64 kB | 5.5/174 kB
+Progress (4): 154 kB | 160/209 kB | 14/64 kB | 5.5/174 kB
+Progress (4): 154 kB | 164/209 kB | 14/64 kB | 5.5/174 kB
+Progress (4): 154 kB | 164/209 kB | 16/64 kB | 5.5/174 kB
+Progress (4): 154 kB | 164/209 kB | 19/64 kB | 5.5/174 kB
+Progress (4): 154 kB | 164/209 kB | 19/64 kB | 8.3/174 kB
+Progress (4): 154 kB | 168/209 kB | 19/64 kB | 8.3/174 kB
+Progress (4): 154 kB | 168/209 kB | 22/64 kB | 8.3/174 kB
+Progress (4): 154 kB | 168/209 kB | 22/64 kB | 11/174 kB 
+Progress (4): 154 kB | 172/209 kB | 22/64 kB | 11/174 kB
+Progress (4): 154 kB | 176/209 kB | 22/64 kB | 11/174 kB
+Progress (4): 154 kB | 176/209 kB | 25/64 kB | 11/174 kB
+Progress (4): 154 kB | 176/209 kB | 25/64 kB | 14/174 kB
+Progress (4): 154 kB | 180/209 kB | 25/64 kB | 14/174 kB
+Progress (4): 154 kB | 180/209 kB | 27/64 kB | 14/174 kB
+Progress (4): 154 kB | 180/209 kB | 30/64 kB | 14/174 kB
+Progress (4): 154 kB | 184/209 kB | 30/64 kB | 14/174 kB
+Progress (4): 154 kB | 184/209 kB | 33/64 kB | 14/174 kB
+Progress (4): 154 kB | 188/209 kB | 33/64 kB | 14/174 kB
+Progress (4): 154 kB | 188/209 kB | 36/64 kB | 14/174 kB
+Progress (4): 154 kB | 193/209 kB | 36/64 kB | 14/174 kB
+Progress (4): 154 kB | 193/209 kB | 38/64 kB | 14/174 kB
+Progress (4): 154 kB | 193/209 kB | 38/64 kB | 18/174 kB
+Progress (4): 154 kB | 193/209 kB | 41/64 kB | 18/174 kB
+Progress (4): 154 kB | 197/209 kB | 41/64 kB | 18/174 kB
+Progress (4): 154 kB | 197/209 kB | 44/64 kB | 18/174 kB
+Progress (4): 154 kB | 197/209 kB | 44/64 kB | 22/174 kB
+Progress (4): 154 kB | 197/209 kB | 47/64 kB | 22/174 kB
+Progress (4): 154 kB | 201/209 kB | 47/64 kB | 22/174 kB
+Progress (4): 154 kB | 201/209 kB | 47/64 kB | 26/174 kB
+Progress (4): 154 kB | 205/209 kB | 47/64 kB | 26/174 kB
+Progress (4): 154 kB | 209/209 kB | 47/64 kB | 26/174 kB
+Progress (4): 154 kB | 209/209 kB | 49/64 kB | 26/174 kB
+Progress (4): 154 kB | 209 kB | 49/64 kB | 26/174 kB    
+Progress (4): 154 kB | 209 kB | 52/64 kB | 26/174 kB
+Progress (4): 154 kB | 209 kB | 52/64 kB | 30/174 kB
+                                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar (154 kB at 1.7 MB/s)
+Progress (3): 209 kB | 55/64 kB | 30/174 kB
+                                           
+Downloading from central: https://repo.maven.apache.org/maven2/org/easymock/easymock/4.2/easymock-4.2.jar
+Progress (3): 209 kB | 58/64 kB | 30/174 kB
+Progress (4): 209 kB | 58/64 kB | 30/174 kB | 4.1/382 kB
+Progress (4): 209 kB | 60/64 kB | 30/174 kB | 4.1/382 kB
+Progress (4): 209 kB | 60/64 kB | 30/174 kB | 8.2/382 kB
+Progress (4): 209 kB | 60/64 kB | 34/174 kB | 8.2/382 kB
+Progress (4): 209 kB | 63/64 kB | 34/174 kB | 8.2/382 kB
+Progress (4): 209 kB | 63/64 kB | 38/174 kB | 8.2/382 kB
+Progress (4): 209 kB | 63/64 kB | 38/174 kB | 12/382 kB 
+Progress (4): 209 kB | 63/64 kB | 42/174 kB | 12/382 kB
+Progress (4): 209 kB | 64 kB | 42/174 kB | 12/382 kB   
+Progress (4): 209 kB | 64 kB | 47/174 kB | 12/382 kB
+Progress (4): 209 kB | 64 kB | 47/174 kB | 16/382 kB
+Progress (4): 209 kB | 64 kB | 47/174 kB | 20/382 kB
+Progress (4): 209 kB | 64 kB | 47/174 kB | 24/382 kB
+Progress (4): 209 kB | 64 kB | 47/174 kB | 28/382 kB
+Progress (4): 209 kB | 64 kB | 47/174 kB | 32/382 kB
+Progress (4): 209 kB | 64 kB | 47/174 kB | 36/382 kB
+Progress (4): 209 kB | 64 kB | 47/174 kB | 40/382 kB
+Progress (4): 209 kB | 64 kB | 47/174 kB | 45/382 kB
+Progress (4): 209 kB | 64 kB | 47/174 kB | 49/382 kB
+Progress (4): 209 kB | 64 kB | 51/174 kB | 49/382 kB
+Progress (4): 209 kB | 64 kB | 51/174 kB | 53/382 kB
+Progress (4): 209 kB | 64 kB | 51/174 kB | 57/382 kB
+Progress (4): 209 kB | 64 kB | 51/174 kB | 61/382 kB
+Progress (4): 209 kB | 64 kB | 55/174 kB | 61/382 kB
+Progress (4): 209 kB | 64 kB | 55/174 kB | 65/382 kB
+Progress (4): 209 kB | 64 kB | 59/174 kB | 65/382 kB
+Progress (4): 209 kB | 64 kB | 63/174 kB | 65/382 kB
+Progress (4): 209 kB | 64 kB | 63/174 kB | 69/382 kB
+Progress (4): 209 kB | 64 kB | 63/174 kB | 73/382 kB
+Progress (4): 209 kB | 64 kB | 63/174 kB | 77/382 kB
+Progress (4): 209 kB | 64 kB | 63/174 kB | 81/382 kB
+Progress (4): 209 kB | 64 kB | 67/174 kB | 81/382 kB
+Progress (4): 209 kB | 64 kB | 67/174 kB | 85/382 kB
+Progress (4): 209 kB | 64 kB | 67/174 kB | 90/382 kB
+Progress (4): 209 kB | 64 kB | 67/174 kB | 94/382 kB
+Progress (4): 209 kB | 64 kB | 67/174 kB | 98/382 kB
+Progress (4): 209 kB | 64 kB | 71/174 kB | 98/382 kB
+Progress (4): 209 kB | 64 kB | 71/174 kB | 102/382 kB
+Progress (4): 209 kB | 64 kB | 71/174 kB | 106/382 kB
+Progress (4): 209 kB | 64 kB | 71/174 kB | 110/382 kB
+Progress (4): 209 kB | 64 kB | 71/174 kB | 114/382 kB
+Progress (4): 209 kB | 64 kB | 75/174 kB | 114/382 kB
+                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar (209 kB at 2.0 MB/s)
+Progress (3): 64 kB | 79/174 kB | 114/382 kB
+                                            
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.1/objenesis-3.1.jar
+Progress (3): 64 kB | 83/174 kB | 114/382 kB
+Progress (3): 64 kB | 88/174 kB | 114/382 kB
+Progress (3): 64 kB | 92/174 kB | 114/382 kB
+Progress (3): 64 kB | 96/174 kB | 114/382 kB
+Progress (3): 64 kB | 96/174 kB | 118/382 kB
+Progress (3): 64 kB | 96/174 kB | 122/382 kB
+Progress (3): 64 kB | 96/174 kB | 126/382 kB
+Progress (3): 64 kB | 100/174 kB | 126/382 kB
+Progress (3): 64 kB | 104/174 kB | 126/382 kB
+Progress (3): 64 kB | 108/174 kB | 126/382 kB
+Progress (3): 64 kB | 108/174 kB | 131/382 kB
+Progress (3): 64 kB | 112/174 kB | 131/382 kB
+Progress (3): 64 kB | 116/174 kB | 131/382 kB
+Progress (3): 64 kB | 120/174 kB | 131/382 kB
+Progress (3): 64 kB | 124/174 kB | 131/382 kB
+Progress (3): 64 kB | 128/174 kB | 131/382 kB
+Progress (3): 64 kB | 133/174 kB | 131/382 kB
+Progress (3): 64 kB | 137/174 kB | 131/382 kB
+Progress (3): 64 kB | 141/174 kB | 131/382 kB
+Progress (3): 64 kB | 145/174 kB | 131/382 kB
+Progress (3): 64 kB | 149/174 kB | 131/382 kB
+Progress (3): 64 kB | 153/174 kB | 131/382 kB
+Progress (3): 64 kB | 157/174 kB | 131/382 kB
+Progress (3): 64 kB | 161/174 kB | 131/382 kB
+Progress (4): 64 kB | 161/174 kB | 131/382 kB | 4.1/577 kB
+Progress (4): 64 kB | 165/174 kB | 131/382 kB | 4.1/577 kB
+Progress (4): 64 kB | 165/174 kB | 131/382 kB | 8.2/577 kB
+Progress (4): 64 kB | 165/174 kB | 131/382 kB | 12/577 kB 
+Progress (4): 64 kB | 165/174 kB | 131/382 kB | 16/577 kB
+Progress (4): 64 kB | 169/174 kB | 131/382 kB | 16/577 kB
+Progress (4): 64 kB | 174/174 kB | 131/382 kB | 16/577 kB
+Progress (4): 64 kB | 174/174 kB | 131/382 kB | 20/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 20/577 kB    
+Progress (4): 64 kB | 174 kB | 131/382 kB | 25/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 29/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 33/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 37/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 41/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 45/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 49/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 53/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 57/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 61/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 66/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 70/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 74/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 78/577 kB
+Progress (4): 64 kB | 174 kB | 131/382 kB | 82/577 kB
+Progress (4): 64 kB | 174 kB | 135/382 kB | 82/577 kB
+Progress (4): 64 kB | 174 kB | 139/382 kB | 82/577 kB
+                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.6.2/junit-vintage-engine-5.6.2.jar (64 kB at 580 kB/s)
+Progress (3): 174 kB | 139/382 kB | 86/577 kB
+Progress (3): 174 kB | 143/382 kB | 86/577 kB
+Progress (3): 174 kB | 143/382 kB | 90/577 kB
+Progress (3): 174 kB | 147/382 kB | 90/577 kB
+Progress (3): 174 kB | 147/382 kB | 94/577 kB
+Progress (3): 174 kB | 147/382 kB | 98/577 kB
+Progress (3): 174 kB | 151/382 kB | 98/577 kB
+Progress (3): 174 kB | 155/382 kB | 98/577 kB
+Progress (3): 174 kB | 155/382 kB | 102/577 kB
+Progress (3): 174 kB | 155/382 kB | 106/577 kB
+Progress (3): 174 kB | 159/382 kB | 106/577 kB
+Progress (3): 174 kB | 159/382 kB | 111/577 kB
+Progress (3): 174 kB | 159/382 kB | 115/577 kB
+Progress (3): 174 kB | 163/382 kB | 115/577 kB
+Progress (3): 174 kB | 163/382 kB | 119/577 kB
+Progress (3): 174 kB | 163/382 kB | 123/577 kB
+Progress (3): 174 kB | 163/382 kB | 127/577 kB
+Progress (3): 174 kB | 163/382 kB | 131/577 kB
+Progress (3): 174 kB | 167/382 kB | 131/577 kB
+Progress (3): 174 kB | 167/382 kB | 135/577 kB
+Progress (3): 174 kB | 167/382 kB | 139/577 kB
+Progress (3): 174 kB | 167/382 kB | 143/577 kB
+Progress (3): 174 kB | 171/382 kB | 143/577 kB
+Progress (3): 174 kB | 171/382 kB | 147/577 kB
+Progress (3): 174 kB | 176/382 kB | 147/577 kB
+Progress (3): 174 kB | 180/382 kB | 147/577 kB
+Progress (3): 174 kB | 180/382 kB | 152/577 kB
+Progress (3): 174 kB | 180/382 kB | 156/577 kB
+Progress (3): 174 kB | 180/382 kB | 160/577 kB
+Progress (3): 174 kB | 184/382 kB | 160/577 kB
+Progress (3): 174 kB | 184/382 kB | 164/577 kB
+Progress (3): 174 kB | 188/382 kB | 164/577 kB
+Progress (3): 174 kB | 192/382 kB | 164/577 kB
+Progress (3): 174 kB | 192/382 kB | 168/577 kB
+Progress (3): 174 kB | 196/382 kB | 168/577 kB
+Progress (3): 174 kB | 196/382 kB | 172/577 kB
+Progress (3): 174 kB | 196/382 kB | 176/577 kB
+Progress (3): 174 kB | 196/382 kB | 180/577 kB
+Progress (3): 174 kB | 196/382 kB | 184/577 kB
+Progress (3): 174 kB | 196/382 kB | 188/577 kB
+Progress (3): 174 kB | 196/382 kB | 193/577 kB
+Progress (3): 174 kB | 196/382 kB | 197/577 kB
+Progress (3): 174 kB | 200/382 kB | 197/577 kB
+Progress (3): 174 kB | 200/382 kB | 201/577 kB
+Progress (3): 174 kB | 204/382 kB | 201/577 kB
+Progress (3): 174 kB | 204/382 kB | 205/577 kB
+Progress (3): 174 kB | 208/382 kB | 205/577 kB
+Progress (3): 174 kB | 208/382 kB | 209/577 kB
+Progress (3): 174 kB | 208/382 kB | 213/577 kB
+Progress (3): 174 kB | 212/382 kB | 213/577 kB
+Progress (3): 174 kB | 212/382 kB | 217/577 kB
+Progress (3): 174 kB | 212/382 kB | 221/577 kB
+Progress (3): 174 kB | 212/382 kB | 225/577 kB
+Progress (3): 174 kB | 212/382 kB | 229/577 kB
+Progress (3): 174 kB | 212/382 kB | 233/577 kB
+Progress (3): 174 kB | 212/382 kB | 238/577 kB
+Progress (3): 174 kB | 212/382 kB | 242/577 kB
+Progress (3): 174 kB | 212/382 kB | 246/577 kB
+Progress (4): 174 kB | 212/382 kB | 246/577 kB | 4.1/60 kB
+Progress (4): 174 kB | 212/382 kB | 246/577 kB | 8.2/60 kB
+Progress (4): 174 kB | 212/382 kB | 250/577 kB | 8.2/60 kB
+Progress (4): 174 kB | 212/382 kB | 250/577 kB | 12/60 kB 
+Progress (4): 174 kB | 212/382 kB | 254/577 kB | 12/60 kB
+Progress (4): 174 kB | 212/382 kB | 258/577 kB | 12/60 kB
+Progress (4): 174 kB | 212/382 kB | 262/577 kB | 12/60 kB
+Progress (4): 174 kB | 212/382 kB | 262/577 kB | 16/60 kB
+Progress (4): 174 kB | 212/382 kB | 266/577 kB | 16/60 kB
+Progress (4): 174 kB | 212/382 kB | 270/577 kB | 16/60 kB
+Progress (4): 174 kB | 212/382 kB | 274/577 kB | 16/60 kB
+Progress (4): 174 kB | 212/382 kB | 279/577 kB | 16/60 kB
+Progress (4): 174 kB | 212/382 kB | 279/577 kB | 20/60 kB
+Progress (4): 174 kB | 212/382 kB | 279/577 kB | 24/60 kB
+Progress (4): 174 kB | 212/382 kB | 283/577 kB | 24/60 kB
+Progress (4): 174 kB | 212/382 kB | 283/577 kB | 28/60 kB
+Progress (4): 174 kB | 212/382 kB | 283/577 kB | 32/60 kB
+Progress (4): 174 kB | 212/382 kB | 287/577 kB | 32/60 kB
+Progress (4): 174 kB | 212/382 kB | 291/577 kB | 32/60 kB
+Progress (4): 174 kB | 212/382 kB | 295/577 kB | 32/60 kB
+Progress (4): 174 kB | 212/382 kB | 295/577 kB | 36/60 kB
+Progress (4): 174 kB | 212/382 kB | 295/577 kB | 40/60 kB
+Progress (4): 174 kB | 212/382 kB | 295/577 kB | 44/60 kB
+Progress (4): 174 kB | 212/382 kB | 299/577 kB | 44/60 kB
+Progress (4): 174 kB | 212/382 kB | 303/577 kB | 44/60 kB
+Progress (4): 174 kB | 212/382 kB | 307/577 kB | 44/60 kB
+Progress (4): 174 kB | 212/382 kB | 307/577 kB | 49/60 kB
+Progress (4): 174 kB | 212/382 kB | 311/577 kB | 49/60 kB
+Progress (4): 174 kB | 217/382 kB | 311/577 kB | 49/60 kB
+Progress (4): 174 kB | 221/382 kB | 311/577 kB | 49/60 kB
+Progress (4): 174 kB | 221/382 kB | 315/577 kB | 49/60 kB
+Progress (4): 174 kB | 221/382 kB | 319/577 kB | 49/60 kB
+Progress (4): 174 kB | 221/382 kB | 324/577 kB | 49/60 kB
+Progress (4): 174 kB | 221/382 kB | 324/577 kB | 53/60 kB
+Progress (4): 174 kB | 221/382 kB | 328/577 kB | 53/60 kB
+Progress (4): 174 kB | 225/382 kB | 328/577 kB | 53/60 kB
+Progress (4): 174 kB | 229/382 kB | 328/577 kB | 53/60 kB
+Progress (4): 174 kB | 229/382 kB | 328/577 kB | 57/60 kB
+Progress (4): 174 kB | 229/382 kB | 328/577 kB | 60 kB   
+Progress (4): 174 kB | 233/382 kB | 328/577 kB | 60 kB
+Progress (4): 174 kB | 237/382 kB | 328/577 kB | 60 kB
+Progress (4): 174 kB | 241/382 kB | 328/577 kB | 60 kB
+Progress (4): 174 kB | 245/382 kB | 328/577 kB | 60 kB
+Progress (4): 174 kB | 245/382 kB | 332/577 kB | 60 kB
+Progress (4): 174 kB | 245/382 kB | 336/577 kB | 60 kB
+Progress (4): 174 kB | 245/382 kB | 340/577 kB | 60 kB
+Progress (4): 174 kB | 245/382 kB | 344/577 kB | 60 kB
+Progress (4): 174 kB | 245/382 kB | 348/577 kB | 60 kB
+Progress (4): 174 kB | 245/382 kB | 352/577 kB | 60 kB
+Progress (4): 174 kB | 245/382 kB | 356/577 kB | 60 kB
+Progress (4): 174 kB | 245/382 kB | 360/577 kB | 60 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar (174 kB at 1.4 MB/s)
+Progress (3): 245/382 kB | 365/577 kB | 60 kB
+Progress (3): 245/382 kB | 369/577 kB | 60 kB
+Progress (3): 245/382 kB | 373/577 kB | 60 kB
+Progress (3): 245/382 kB | 377/577 kB | 60 kB
+Progress (3): 249/382 kB | 377/577 kB | 60 kB
+Progress (3): 253/382 kB | 377/577 kB | 60 kB
+Progress (3): 253/382 kB | 381/577 kB | 60 kB
+Progress (3): 257/382 kB | 381/577 kB | 60 kB
+Progress (3): 262/382 kB | 381/577 kB | 60 kB
+Progress (3): 262/382 kB | 385/577 kB | 60 kB
+Progress (3): 262/382 kB | 389/577 kB | 60 kB
+Progress (3): 262/382 kB | 393/577 kB | 60 kB
+Progress (3): 266/382 kB | 393/577 kB | 60 kB
+Progress (3): 270/382 kB | 393/577 kB | 60 kB
+Progress (3): 274/382 kB | 393/577 kB | 60 kB
+Progress (3): 278/382 kB | 393/577 kB | 60 kB
+Progress (3): 278/382 kB | 397/577 kB | 60 kB
+Progress (3): 282/382 kB | 397/577 kB | 60 kB
+Progress (3): 282/382 kB | 401/577 kB | 60 kB
+Progress (3): 282/382 kB | 406/577 kB | 60 kB
+Progress (3): 286/382 kB | 406/577 kB | 60 kB
+Progress (3): 286/382 kB | 410/577 kB | 60 kB
+Progress (3): 290/382 kB | 410/577 kB | 60 kB
+Progress (3): 294/382 kB | 410/577 kB | 60 kB
+Progress (3): 294/382 kB | 414/577 kB | 60 kB
+Progress (3): 294/382 kB | 418/577 kB | 60 kB
+Progress (3): 294/382 kB | 422/577 kB | 60 kB
+Progress (3): 294/382 kB | 426/577 kB | 60 kB
+Progress (3): 294/382 kB | 430/577 kB | 60 kB
+Progress (3): 294/382 kB | 434/577 kB | 60 kB
+Progress (3): 294/382 kB | 438/577 kB | 60 kB
+Progress (3): 294/382 kB | 442/577 kB | 60 kB
+Progress (3): 294/382 kB | 446/577 kB | 60 kB
+Progress (3): 294/382 kB | 451/577 kB | 60 kB
+Progress (3): 294/382 kB | 455/577 kB | 60 kB
+Progress (3): 294/382 kB | 459/577 kB | 60 kB
+Progress (3): 294/382 kB | 463/577 kB | 60 kB
+Progress (3): 294/382 kB | 467/577 kB | 60 kB
+Progress (3): 294/382 kB | 471/577 kB | 60 kB
+Progress (3): 294/382 kB | 475/577 kB | 60 kB
+Progress (3): 294/382 kB | 479/577 kB | 60 kB
+Progress (3): 294/382 kB | 483/577 kB | 60 kB
+Progress (3): 294/382 kB | 487/577 kB | 60 kB
+Progress (3): 294/382 kB | 492/577 kB | 60 kB
+Progress (3): 294/382 kB | 496/577 kB | 60 kB
+Progress (3): 294/382 kB | 500/577 kB | 60 kB
+Progress (3): 294/382 kB | 504/577 kB | 60 kB
+Progress (3): 294/382 kB | 508/577 kB | 60 kB
+Progress (3): 294/382 kB | 512/577 kB | 60 kB
+Progress (3): 294/382 kB | 516/577 kB | 60 kB
+Progress (3): 294/382 kB | 520/577 kB | 60 kB
+Progress (3): 294/382 kB | 524/577 kB | 60 kB
+Progress (3): 294/382 kB | 528/577 kB | 60 kB
+Progress (3): 294/382 kB | 532/577 kB | 60 kB
+Progress (3): 294/382 kB | 537/577 kB | 60 kB
+Progress (3): 294/382 kB | 541/577 kB | 60 kB
+Progress (3): 294/382 kB | 545/577 kB | 60 kB
+Progress (3): 294/382 kB | 549/577 kB | 60 kB
+Progress (3): 294/382 kB | 553/577 kB | 60 kB
+Progress (3): 294/382 kB | 557/577 kB | 60 kB
+Progress (3): 294/382 kB | 561/577 kB | 60 kB
+Progress (3): 294/382 kB | 565/577 kB | 60 kB
+Progress (3): 294/382 kB | 569/577 kB | 60 kB
+Progress (3): 294/382 kB | 573/577 kB | 60 kB
+Progress (3): 294/382 kB | 577 kB | 60 kB    
+Progress (3): 298/382 kB | 577 kB | 60 kB
+Progress (3): 303/382 kB | 577 kB | 60 kB
+Progress (3): 307/382 kB | 577 kB | 60 kB
+Progress (3): 311/382 kB | 577 kB | 60 kB
+Progress (3): 315/382 kB | 577 kB | 60 kB
+Progress (3): 319/382 kB | 577 kB | 60 kB
+Progress (3): 323/382 kB | 577 kB | 60 kB
+Progress (3): 327/382 kB | 577 kB | 60 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.1/objenesis-3.1.jar (60 kB at 454 kB/s)
+Progress (2): 331/382 kB | 577 kB
+Progress (2): 335/382 kB | 577 kB
+Progress (2): 339/382 kB | 577 kB
+Progress (2): 344/382 kB | 577 kB
+Progress (2): 348/382 kB | 577 kB
+Progress (2): 352/382 kB | 577 kB
+Progress (2): 356/382 kB | 577 kB
+Progress (2): 360/382 kB | 577 kB
+Progress (2): 364/382 kB | 577 kB
+Progress (2): 368/382 kB | 577 kB
+Progress (2): 372/382 kB | 577 kB
+Progress (2): 376/382 kB | 577 kB
+Progress (2): 380/382 kB | 577 kB
+Progress (2): 382 kB | 577 kB    
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/easymock/easymock/4.2/easymock-4.2.jar (577 kB at 4.1 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.13/junit-4.13.jar (382 kB at 2.5 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Enabled default license matchers.
+[[1;34mINFO[m] Will parse SCM ignores for exclusions...
+[[1;34mINFO[m] Parsing exclusions from /home/neo/cs527/nondex_upgrade_testing/commons-collections/.gitignore
+[[1;34mINFO[m] Finished adding exclusions from SCM ignore files.
+[[1;34mINFO[m] 72 implicit excludes (use -debug for more details).
+[[1;34mINFO[m] 11 explicit excludes (use -debug for more details).
+[[1;34mINFO[m] 638 resources included (use -debug for more details)
+[[1;34mINFO[m] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 633 licenses.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.2.0:parse-version[m [1m(parse-version)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-collections4[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.4/ant-1.9.4.pom
+Progress (1): 4.1/9.6 kB
+Progress (1): 8.2/9.6 kB
+Progress (1): 9.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.4/ant-1.9.4.pom (9.6 kB at 127 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.9.4/ant-parent-1.9.4.pom
+Progress (1): 4.1/5.6 kB
+Progress (1): 5.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.9.4/ant-parent-1.9.4.pom (5.6 kB at 330 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.pom (2.3 kB at 123 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.4/ant-1.9.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.jar
+Progress (1): 4.1/18 kB
+Progress (1): 8.2/18 kB
+Progress (1): 12/18 kB 
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+Progress (2): 18 kB | 0/2.0 MB
+Progress (2): 18 kB | 0/2.0 MB
+Progress (2): 18 kB | 0/2.0 MB
+Progress (2): 18 kB | 0/2.0 MB
+Progress (2): 18 kB | 0/2.0 MB
+Progress (2): 18 kB | 0/2.0 MB
+Progress (2): 18 kB | 0.1/2.0 MB
+Progress (2): 18 kB | 0.1/2.0 MB
+Progress (2): 18 kB | 0.1/2.0 MB
+Progress (2): 18 kB | 0.1/2.0 MB
+Progress (2): 18 kB | 0.1/2.0 MB
+Progress (2): 18 kB | 0.1/2.0 MB
+Progress (2): 18 kB | 0.1/2.0 MB
+Progress (2): 18 kB | 0.1/2.0 MB
+Progress (2): 18 kB | 0.1/2.0 MB
+Progress (2): 18 kB | 0.1/2.0 MB
+Progress (2): 18 kB | 0.1/2.0 MB
+Progress (2): 18 kB | 0.1/2.0 MB
+Progress (2): 18 kB | 0.2/2.0 MB
+Progress (2): 18 kB | 0.2/2.0 MB
+Progress (2): 18 kB | 0.2/2.0 MB
+Progress (2): 18 kB | 0.2/2.0 MB
+Progress (2): 18 kB | 0.2/2.0 MB
+Progress (2): 18 kB | 0.2/2.0 MB
+Progress (2): 18 kB | 0.2/2.0 MB
+Progress (2): 18 kB | 0.2/2.0 MB
+Progress (2): 18 kB | 0.2/2.0 MB
+Progress (2): 18 kB | 0.2/2.0 MB
+Progress (2): 18 kB | 0.2/2.0 MB
+Progress (2): 18 kB | 0.2/2.0 MB
+Progress (2): 18 kB | 0.3/2.0 MB
+Progress (2): 18 kB | 0.3/2.0 MB
+Progress (2): 18 kB | 0.3/2.0 MB
+Progress (2): 18 kB | 0.3/2.0 MB
+Progress (2): 18 kB | 0.3/2.0 MB
+Progress (2): 18 kB | 0.3/2.0 MB
+Progress (2): 18 kB | 0.3/2.0 MB
+Progress (2): 18 kB | 0.3/2.0 MB
+Progress (2): 18 kB | 0.3/2.0 MB
+Progress (2): 18 kB | 0.3/2.0 MB
+Progress (2): 18 kB | 0.3/2.0 MB
+Progress (2): 18 kB | 0.3/2.0 MB
+Progress (2): 18 kB | 0.4/2.0 MB
+Progress (2): 18 kB | 0.4/2.0 MB
+Progress (2): 18 kB | 0.4/2.0 MB
+Progress (2): 18 kB | 0.4/2.0 MB
+Progress (2): 18 kB | 0.4/2.0 MB
+Progress (2): 18 kB | 0.4/2.0 MB
+Progress (2): 18 kB | 0.4/2.0 MB
+Progress (2): 18 kB | 0.4/2.0 MB
+Progress (2): 18 kB | 0.4/2.0 MB
+Progress (2): 18 kB | 0.4/2.0 MB
+Progress (2): 18 kB | 0.4/2.0 MB
+Progress (2): 18 kB | 0.4/2.0 MB
+Progress (2): 18 kB | 0.5/2.0 MB
+Progress (2): 18 kB | 0.5/2.0 MB
+Progress (2): 18 kB | 0.5/2.0 MB
+Progress (2): 18 kB | 0.5/2.0 MB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.jar (18 kB at 557 kB/s)
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.4/ant-1.9.4.jar (2.0 MB at 25 MB/s)
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Skipping remote resources execution.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/neo/cs527/nondex_upgrade_testing/commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/neo/cs527/nondex_upgrade_testing/commons-collections
+[[1;34mINFO[m] Storing buildNumber: 81e3a7ec0492148724da4512fcefcb47ba82894a at timestamp: 1696397462844
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/neo/cs527/nondex_upgrade_testing/commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/neo/cs527/nondex_upgrade_testing/commons-collections
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 351 source files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:5.1.1:manifest[m [1m(bundle-manifest)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 180 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 239 source files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/test-classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32manimal-sniffer-maven-plugin:1.19:check[m [1m(checkAPIcompatibility)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(prepare-agent)[m @ [36mcommons-collections4[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5.pom (3.5 kB at 135 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.5/org.jacoco.core-0.8.5.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.5/org.jacoco.core-0.8.5.pom (2.1 kB at 99 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.pom
+Progress (1): 3.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.pom (3.7 kB at 183 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.pom (3.1 kB at 174 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.2/asm-analysis-7.2.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.2/asm-analysis-7.2.pom (3.2 kB at 132 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.5/org.jacoco.report-0.8.5.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.5/org.jacoco.report-0.8.5.pom (1.9 kB at 90 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.5/org.jacoco.core-0.8.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.2/asm-analysis-7.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar
+Progress (1): 4.1/282 kB
+Progress (1): 8.2/282 kB
+Progress (1): 12/282 kB 
+Progress (1): 16/282 kB
+Progress (2): 16/282 kB | 4.1/195 kB
+Progress (2): 16/282 kB | 8.2/195 kB
+Progress (2): 20/282 kB | 8.2/195 kB
+Progress (2): 20/282 kB | 12/195 kB 
+Progress (2): 25/282 kB | 12/195 kB
+Progress (2): 29/282 kB | 12/195 kB
+Progress (2): 33/282 kB | 12/195 kB
+Progress (2): 33/282 kB | 16/195 kB
+Progress (2): 37/282 kB | 16/195 kB
+Progress (2): 41/282 kB | 16/195 kB
+Progress (2): 45/282 kB | 16/195 kB
+Progress (2): 49/282 kB | 16/195 kB
+Progress (2): 53/282 kB | 16/195 kB
+Progress (2): 57/282 kB | 16/195 kB
+Progress (2): 61/282 kB | 16/195 kB
+Progress (2): 66/282 kB | 16/195 kB
+Progress (2): 70/282 kB | 16/195 kB
+Progress (2): 74/282 kB | 16/195 kB
+Progress (2): 78/282 kB | 16/195 kB
+Progress (2): 82/282 kB | 16/195 kB
+Progress (2): 86/282 kB | 16/195 kB
+Progress (2): 90/282 kB | 16/195 kB
+Progress (2): 94/282 kB | 16/195 kB
+Progress (2): 98/282 kB | 16/195 kB
+Progress (2): 102/282 kB | 16/195 kB
+Progress (2): 106/282 kB | 16/195 kB
+Progress (2): 111/282 kB | 16/195 kB
+Progress (2): 115/282 kB | 16/195 kB
+Progress (3): 115/282 kB | 16/195 kB | 4.1/70 kB
+Progress (3): 119/282 kB | 16/195 kB | 4.1/70 kB
+Progress (3): 119/282 kB | 16/195 kB | 8.2/70 kB
+Progress (3): 123/282 kB | 16/195 kB | 8.2/70 kB
+Progress (3): 127/282 kB | 16/195 kB | 8.2/70 kB
+Progress (3): 127/282 kB | 16/195 kB | 12/70 kB 
+Progress (3): 131/282 kB | 16/195 kB | 12/70 kB
+Progress (3): 131/282 kB | 16/195 kB | 16/70 kB
+Progress (3): 135/282 kB | 16/195 kB | 16/70 kB
+Progress (3): 139/282 kB | 16/195 kB | 16/70 kB
+Progress (3): 143/282 kB | 16/195 kB | 16/70 kB
+Progress (3): 147/282 kB | 16/195 kB | 16/70 kB
+Progress (3): 147/282 kB | 16/195 kB | 20/70 kB
+Progress (3): 147/282 kB | 16/195 kB | 25/70 kB
+Progress (3): 147/282 kB | 16/195 kB | 29/70 kB
+Progress (3): 147/282 kB | 20/195 kB | 29/70 kB
+Progress (3): 147/282 kB | 24/195 kB | 29/70 kB
+Progress (3): 152/282 kB | 24/195 kB | 29/70 kB
+Progress (3): 152/282 kB | 28/195 kB | 29/70 kB
+Progress (3): 152/282 kB | 28/195 kB | 33/70 kB
+Progress (3): 152/282 kB | 32/195 kB | 33/70 kB
+Progress (3): 156/282 kB | 32/195 kB | 33/70 kB
+Progress (3): 156/282 kB | 32/195 kB | 37/70 kB
+Progress (3): 160/282 kB | 32/195 kB | 37/70 kB
+Progress (3): 164/282 kB | 32/195 kB | 37/70 kB
+Progress (3): 164/282 kB | 32/195 kB | 41/70 kB
+Progress (3): 164/282 kB | 32/195 kB | 45/70 kB
+Progress (3): 164/282 kB | 32/195 kB | 49/70 kB
+Progress (3): 168/282 kB | 32/195 kB | 49/70 kB
+Progress (3): 172/282 kB | 32/195 kB | 49/70 kB
+Progress (3): 176/282 kB | 32/195 kB | 49/70 kB
+Progress (3): 180/282 kB | 32/195 kB | 49/70 kB
+Progress (3): 180/282 kB | 32/195 kB | 53/70 kB
+Progress (3): 180/282 kB | 32/195 kB | 57/70 kB
+Progress (3): 180/282 kB | 32/195 kB | 61/70 kB
+Progress (3): 184/282 kB | 32/195 kB | 61/70 kB
+Progress (3): 188/282 kB | 32/195 kB | 61/70 kB
+Progress (3): 193/282 kB | 32/195 kB | 61/70 kB
+Progress (3): 193/282 kB | 32/195 kB | 66/70 kB
+Progress (3): 197/282 kB | 32/195 kB | 66/70 kB
+Progress (3): 201/282 kB | 32/195 kB | 66/70 kB
+Progress (3): 205/282 kB | 32/195 kB | 66/70 kB
+Progress (3): 209/282 kB | 32/195 kB | 66/70 kB
+Progress (3): 213/282 kB | 32/195 kB | 66/70 kB
+Progress (3): 213/282 kB | 36/195 kB | 66/70 kB
+Progress (3): 213/282 kB | 40/195 kB | 66/70 kB
+Progress (4): 213/282 kB | 40/195 kB | 66/70 kB | 4.1/50 kB
+Progress (4): 213/282 kB | 44/195 kB | 66/70 kB | 4.1/50 kB
+Progress (4): 213/282 kB | 44/195 kB | 66/70 kB | 8.2/50 kB
+Progress (4): 217/282 kB | 44/195 kB | 66/70 kB | 8.2/50 kB
+Progress (5): 217/282 kB | 44/195 kB | 66/70 kB | 8.2/50 kB | 4.1/33 kB
+Progress (5): 217/282 kB | 44/195 kB | 66/70 kB | 8.2/50 kB | 8.2/33 kB
+Progress (5): 217/282 kB | 44/195 kB | 70/70 kB | 8.2/50 kB | 8.2/33 kB
+Progress (5): 217/282 kB | 44/195 kB | 70/70 kB | 12/50 kB | 8.2/33 kB 
+Progress (5): 217/282 kB | 44/195 kB | 70/70 kB | 16/50 kB | 8.2/33 kB
+Progress (5): 217/282 kB | 49/195 kB | 70/70 kB | 16/50 kB | 8.2/33 kB
+Progress (5): 217/282 kB | 49/195 kB | 70 kB | 16/50 kB | 8.2/33 kB   
+Progress (5): 217/282 kB | 53/195 kB | 70 kB | 16/50 kB | 8.2/33 kB
+Progress (5): 217/282 kB | 53/195 kB | 70 kB | 16/50 kB | 12/33 kB 
+Progress (5): 221/282 kB | 53/195 kB | 70 kB | 16/50 kB | 12/33 kB
+Progress (5): 225/282 kB | 53/195 kB | 70 kB | 16/50 kB | 12/33 kB
+Progress (5): 229/282 kB | 53/195 kB | 70 kB | 16/50 kB | 12/33 kB
+Progress (5): 229/282 kB | 53/195 kB | 70 kB | 16/50 kB | 16/33 kB
+Progress (5): 229/282 kB | 57/195 kB | 70 kB | 16/50 kB | 16/33 kB
+Progress (5): 229/282 kB | 57/195 kB | 70 kB | 20/50 kB | 16/33 kB
+Progress (5): 229/282 kB | 57/195 kB | 70 kB | 20/50 kB | 20/33 kB
+Progress (5): 229/282 kB | 61/195 kB | 70 kB | 20/50 kB | 20/33 kB
+Progress (5): 229/282 kB | 65/195 kB | 70 kB | 20/50 kB | 20/33 kB
+Progress (5): 233/282 kB | 65/195 kB | 70 kB | 20/50 kB | 20/33 kB
+Progress (5): 238/282 kB | 65/195 kB | 70 kB | 20/50 kB | 20/33 kB
+Progress (5): 238/282 kB | 65/195 kB | 70 kB | 20/50 kB | 25/33 kB
+Progress (5): 238/282 kB | 65/195 kB | 70 kB | 24/50 kB | 25/33 kB
+Progress (5): 238/282 kB | 65/195 kB | 70 kB | 28/50 kB | 25/33 kB
+Progress (5): 238/282 kB | 65/195 kB | 70 kB | 32/50 kB | 25/33 kB
+Progress (5): 238/282 kB | 65/195 kB | 70 kB | 32/50 kB | 29/33 kB
+Progress (5): 238/282 kB | 65/195 kB | 70 kB | 32/50 kB | 33/33 kB
+Progress (5): 238/282 kB | 65/195 kB | 70 kB | 36/50 kB | 33/33 kB
+Progress (5): 238/282 kB | 65/195 kB | 70 kB | 36/50 kB | 33 kB   
+Progress (5): 238/282 kB | 69/195 kB | 70 kB | 36/50 kB | 33 kB
+Progress (5): 242/282 kB | 69/195 kB | 70 kB | 36/50 kB | 33 kB
+Progress (5): 246/282 kB | 69/195 kB | 70 kB | 36/50 kB | 33 kB
+Progress (5): 246/282 kB | 73/195 kB | 70 kB | 36/50 kB | 33 kB
+Progress (5): 246/282 kB | 77/195 kB | 70 kB | 36/50 kB | 33 kB
+Progress (5): 246/282 kB | 77/195 kB | 70 kB | 40/50 kB | 33 kB
+Progress (5): 246/282 kB | 81/195 kB | 70 kB | 40/50 kB | 33 kB
+Progress (5): 250/282 kB | 81/195 kB | 70 kB | 40/50 kB | 33 kB
+Progress (5): 254/282 kB | 81/195 kB | 70 kB | 40/50 kB | 33 kB
+Progress (5): 254/282 kB | 81/195 kB | 70 kB | 44/50 kB | 33 kB
+Progress (5): 258/282 kB | 81/195 kB | 70 kB | 44/50 kB | 33 kB
+Progress (5): 258/282 kB | 81/195 kB | 70 kB | 49/50 kB | 33 kB
+Progress (5): 262/282 kB | 81/195 kB | 70 kB | 49/50 kB | 33 kB
+Progress (5): 262/282 kB | 81/195 kB | 70 kB | 50 kB | 33 kB   
+Progress (5): 266/282 kB | 81/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 270/282 kB | 81/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 274/282 kB | 81/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 279/282 kB | 81/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 81/195 kB | 70 kB | 50 kB | 33 kB    
+Progress (5): 282 kB | 85/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 90/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 94/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 98/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 102/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 106/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 110/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 114/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 118/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 122/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 126/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 130/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 135/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 139/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 143/195 kB | 70 kB | 50 kB | 33 kB
+Progress (5): 282 kB | 147/195 kB | 70 kB | 50 kB | 33 kB
+                                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar (70 kB at 1.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.5/org.jacoco.report-0.8.5.jar
+Progress (4): 282 kB | 151/195 kB | 50 kB | 33 kB
+Progress (4): 282 kB | 155/195 kB | 50 kB | 33 kB
+Progress (4): 282 kB | 159/195 kB | 50 kB | 33 kB
+Progress (4): 282 kB | 163/195 kB | 50 kB | 33 kB
+                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar (50 kB at 1.4 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.2/asm-analysis-7.2.jar (33 kB at 880 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar (282 kB at 7.2 MB/s)
+Progress (1): 167/195 kB
+Progress (1): 171/195 kB
+Progress (1): 176/195 kB
+Progress (1): 180/195 kB
+Progress (1): 184/195 kB
+Progress (1): 188/195 kB
+Progress (1): 192/195 kB
+Progress (1): 195 kB    
+Progress (2): 195 kB | 4.1/129 kB
+Progress (2): 195 kB | 8.2/129 kB
+Progress (2): 195 kB | 12/129 kB 
+Progress (2): 195 kB | 16/129 kB
+Progress (2): 195 kB | 20/129 kB
+Progress (2): 195 kB | 25/129 kB
+Progress (2): 195 kB | 29/129 kB
+Progress (2): 195 kB | 33/129 kB
+Progress (2): 195 kB | 37/129 kB
+Progress (2): 195 kB | 41/129 kB
+Progress (2): 195 kB | 45/129 kB
+Progress (2): 195 kB | 49/129 kB
+Progress (2): 195 kB | 53/129 kB
+Progress (2): 195 kB | 57/129 kB
+Progress (2): 195 kB | 61/129 kB
+Progress (2): 195 kB | 66/129 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.5/org.jacoco.core-0.8.5.jar (195 kB at 3.8 MB/s)
+Progress (1): 70/129 kB
+Progress (1): 74/129 kB
+Progress (1): 78/129 kB
+Progress (1): 82/129 kB
+Progress (1): 86/129 kB
+Progress (1): 90/129 kB
+Progress (1): 94/129 kB
+Progress (1): 98/129 kB
+Progress (1): 102/129 kB
+Progress (1): 106/129 kB
+Progress (1): 111/129 kB
+Progress (1): 115/129 kB
+Progress (1): 119/129 kB
+Progress (1): 123/129 kB
+Progress (1): 127/129 kB
+Progress (1): 129 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.5/org.jacoco.report-0.8.5.jar (129 kB at 2.0 MB/s)
+[[1;34mINFO[m] argLine set to -javaagent:/home/neo/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/neo/cs527/nondex_upgrade_testing/commons-collections/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.9.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Skipping because packaging 'jar' is not pom.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:test-jar[m [1m(default)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.1:jar-no-fork[m [1m(create-source-jar)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.1:test-jar-no-fork[m [1m(create-source-jar)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:check[m [1m(check)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file:/home/neo/cs527/nondex_upgrade_testing/commons-collections/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT.jar to /home/neo/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/commons-collections/pom.xml to /home/neo/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT-tests.jar to /home/neo/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT-tests.jar
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT-sources.jar to /home/neo/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/commons-collections4-4.5-SNAPSHOT-test-sources.jar to /home/neo/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  13.809 s
+[[1;34mINFO[m] Finished at: 2023-10-04T00:31:09-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36morg.apache.commons:commons-collections4[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Collections 4.5-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Enabled default license matchers.
+[[1;34mINFO[m] Will parse SCM ignores for exclusions...
+[[1;34mINFO[m] Parsing exclusions from /home/neo/cs527/nondex_upgrade_testing/commons-collections/.gitignore
+[[1;34mINFO[m] Finished adding exclusions from SCM ignore files.
+[[1;34mINFO[m] 72 implicit excludes (use -debug for more details).
+[[1;34mINFO[m] 11 explicit excludes (use -debug for more details).
+[[1;34mINFO[m] 638 resources included (use -debug for more details)
+[[1;34mINFO[m] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 633 licenses.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.2.0:parse-version[m [1m(parse-version)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Skipping remote resources execution.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/neo/cs527/nondex_upgrade_testing/commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/neo/cs527/nondex_upgrade_testing/commons-collections
+[[1;34mINFO[m] Storing buildNumber: 81e3a7ec0492148724da4512fcefcb47ba82894a at timestamp: 1696397471423
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/neo/cs527/nondex_upgrade_testing/commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/neo/cs527/nondex_upgrade_testing/commons-collections
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 351 source files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:5.1.1:manifest[m [1m(bundle-manifest)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 180 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 239 source files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/test-classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32manimal-sniffer-maven-plugin:1.19:check[m [1m(checkAPIcompatibility)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(prepare-agent)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/neo/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/neo/cs527/nondex_upgrade_testing/commons-collections/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.833 s
+[[1;34mINFO[m] Finished at: 2023-10-04T00:31:16-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.22.2:test[m [1m(default-test)[m on project [36mcommons-collections4[m: [1;31mNo tests were executed!  (Set -DfailIfNoTests=false to ignore this error.)[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36morg.apache.commons:commons-collections4[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Collections 4.5-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex-maven-plugin:2.1.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcommons-collections4[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Enabled default license matchers.
+[[1;34mINFO[m] Will parse SCM ignores for exclusions...
+[[1;34mINFO[m] Parsing exclusions from /home/neo/cs527/nondex_upgrade_testing/commons-collections/.gitignore
+[[1;34mINFO[m] Finished adding exclusions from SCM ignore files.
+[[1;34mINFO[m] 72 implicit excludes (use -debug for more details).
+[[1;34mINFO[m] 11 explicit excludes (use -debug for more details).
+[[1;34mINFO[m] 638 resources included (use -debug for more details)
+[[1;34mINFO[m] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 633 licenses.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.2.0:parse-version[m [1m(parse-version)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Skipping remote resources execution.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/neo/cs527/nondex_upgrade_testing/commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/neo/cs527/nondex_upgrade_testing/commons-collections
+[[1;34mINFO[m] Storing buildNumber: 81e3a7ec0492148724da4512fcefcb47ba82894a at timestamp: 1696397478956
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/neo/cs527/nondex_upgrade_testing/commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/neo/cs527/nondex_upgrade_testing/commons-collections
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 351 source files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:5.1.1:manifest[m [1m(bundle-manifest)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 180 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcommons-collections4[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 239 source files to /home/neo/cs527/nondex_upgrade_testing/commons-collections/target/test-classes
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/neo/cs527/nondex_upgrade_testing/commons-collections/src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex-maven-plugin:2.1.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcommons-collections4[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex-maven-plugin:2.1.1:nondex[m [1m(default-cli)[m @ [36mcommons-collections4[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_Z+QJhSMqeF5gKI+Z2EWp1D5o2XE9U8yWyyreG3es=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for clean_Z+QJhSMqeF5gKI+Z2EWp1D5o2XE9U8yWyyreG3es=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=eExQoXmHRYFFuGPvxtSGmshx38EeT8l0uPX1vicyHhc=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for eExQoXmHRYFFuGPvxtSGmshx38EeT8l0uPX1vicyHhc=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=ngy+T3XDaEj4WmwRLaFrhhlaIeCeZLq3VJ87wA7Bcg=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for ngy+T3XDaEj4WmwRLaFrhhlaIeCeZLq3VJ87wA7Bcg=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=BoRzT7MeFEagStOIFA6zsUcfDUCOD4hH5lURtsaHWQ=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for BoRzT7MeFEagStOIFA6zsUcfDUCOD4hH5lURtsaHWQ=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1057510
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=aOJkOokkfgdYp2Vlw2YudOsaLZpiAVspA1JykiIoZ4=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for aOJkOokkfgdYp2Vlw2YudOsaLZpiAVspA1JykiIoZ4=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1098954
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=Y8UHzIv9R7qNKELZ3Ltm8RkIPUxffWlqL6buK3MHLg=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for Y8UHzIv9R7qNKELZ3Ltm8RkIPUxffWlqL6buK3MHLg=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1140398
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=O3IAeWqULN0zADXZmvoK57G8X0ViJhQBnLqJ1l2+jU=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for O3IAeWqULN0zADXZmvoK57G8X0ViJhQBnLqJ1l2+jU=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1181842
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=q1mFyAsVVYFh38MhYiAEn1PTCsQJu8jx1QTY8BGQC78=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for q1mFyAsVVYFh38MhYiAEn1PTCsQJu8jx1QTY8BGQC78=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1223286
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=8WILGG3HrKG5MKTae354UlloU3tzWn4jbuFF2xnGP0w=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 8WILGG3HrKG5MKTae354UlloU3tzWn4jbuFF2xnGP0w=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1264730
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=G3sGgs0XMTm+OIpdLP4pMuXv7bntxshRNvYwZWdteOI=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for G3sGgs0XMTm+OIpdLP4pMuXv7bntxshRNvYwZWdteOI=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1306174
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=XAzclu68J7LjEXlskIk7h2AMWgQ960O3A7VraMwJSM=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for XAzclu68J7LjEXlskIk7h2AMWgQ960O3A7VraMwJSM=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1347618
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=CsBad12sZAcIG79p5xAE7Pnz12jLAieavHBQ7Jbxbx4=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for CsBad12sZAcIG79p5xAE7Pnz12jLAieavHBQ7Jbxbx4=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1389062
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=7xO19k25yebImYr019sTO62+d58DJTcwnBdfT6c9MI=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 7xO19k25yebImYr019sTO62+d58DJTcwnBdfT6c9MI=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1430506
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=+retCNhukUZjp21Gfo+iA5t4oC8bZ+YAVBfGoqvvTk=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for +retCNhukUZjp21Gfo+iA5t4oC8bZ+YAVBfGoqvvTk=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1471950
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=K7jMW29zOUXWdxUQRHrmKEQgXodgWDfIajCCO+fjRWU=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for K7jMW29zOUXWdxUQRHrmKEQgXodgWDfIajCCO+fjRWU=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1513394
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=oZ0Mdb+wRycIurFevPMMJdvboDT8D92kDDReEeFuKs=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for oZ0Mdb+wRycIurFevPMMJdvboDT8D92kDDReEeFuKs=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1554838
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=hXap+hSxGUA4QgOZ5rDP9yEUFRp0cmVIzP0whPy2bJw=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for hXap+hSxGUA4QgOZ5rDP9yEUFRp0cmVIzP0whPy2bJw=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1596282
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=x83VR7pXBorbBrANHewEX5xevsj9PGl9CnbchnQtAN0=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for x83VR7pXBorbBrANHewEX5xevsj9PGl9CnbchnQtAN0=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1637726
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=HStlBFGb2mKXSgMvacbEle6U0mM7tiKYl4ETPmUayYA=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for HStlBFGb2mKXSgMvacbEle6U0mM7tiKYl4ETPmUayYA=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1679170
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=n3CotgwfWacdNcBq0IB7GDJX5PTtxYW0zI7OgIYeg=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for n3CotgwfWacdNcBq0IB7GDJX5PTtxYW0zI7OgIYeg=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1720614
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=DmxOGn2461XHOoxxilAKCYo+nyVMfzhGFecXrJzHc=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for DmxOGn2461XHOoxxilAKCYo+nyVMfzhGFecXrJzHc=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1762058
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=LN7BKE7Jrfe1aiVldBKT13nj6AoRpjvF9zvmyxHvpM=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for LN7BKE7Jrfe1aiVldBKT13nj6AoRpjvF9zvmyxHvpM=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1803502
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=X2gzeHxsUT5ZV8FUzc2CzuXTFkFvx19cKs2l5xA9cok=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for X2gzeHxsUT5ZV8FUzc2CzuXTFkFvx19cKs2l5xA9cok=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1844946
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=e+xRsZDgbpp2DSLLSuNecDPYbDH6ru8eItJh3GZg0jo=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for e+xRsZDgbpp2DSLLSuNecDPYbDH6ru8eItJh3GZg0jo=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1886390
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=4LdGfLMRVmjMQNrlcikmOua5DU47HD4rMQOcYRwQy4M=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 4LdGfLMRVmjMQNrlcikmOua5DU47HD4rMQOcYRwQy4M=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1927834
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=lx1z8Om9urmPx83z3j28IT0iuVr+QAd98+cYfRDhFU=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for lx1z8Om9urmPx83z3j28IT0iuVr+QAd98+cYfRDhFU=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1969278
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=6JmUrQNFJOednV8uCMjOG8vfUKgS4eO3vElicbgiTg=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 6JmUrQNFJOednV8uCMjOG8vfUKgS4eO3vElicbgiTg=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2010722
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=Z8FAq4EU5ALO+SMKT24d7m96xsyW8g3Scpl7QLZO14s=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for Z8FAq4EU5ALO+SMKT24d7m96xsyW8g3Scpl7QLZO14s=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2052166
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=H8lr0wpZPMdGW29f1Xx3cuCuVf8FnSFJbqXsSVtiw=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for H8lr0wpZPMdGW29f1Xx3cuCuVf8FnSFJbqXsSVtiw=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2093610
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=cG34CKrX7aO2u8ug8QnLt6UGN1tPIv6axgHOdkrnNw=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for cG34CKrX7aO2u8ug8QnLt6UGN1tPIv6axgHOdkrnNw=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2135054
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=jF7AU1+nAC5qgLiEmbHvgiFU1aW8XF8CNccyWztLA=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for jF7AU1+nAC5qgLiEmbHvgiFU1aW8XF8CNccyWztLA=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2176498
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=Nb3vYl4kKA+liPMEg5zlEKbb1C9TH9U+wkAWKvoRH0=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for Nb3vYl4kKA+liPMEg5zlEKbb1C9TH9U+wkAWKvoRH0=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2217942
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=Z+EbuA1Abr9zrMMQLZB7XR2JGvV0Tsf4SHVuGXW9A04=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for Z+EbuA1Abr9zrMMQLZB7XR2JGvV0Tsf4SHVuGXW9A04=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2259386
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=GDEDzX8+UBWVArmw1wUCSKCFbWaV13wIEnBBhJni1jE=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for GDEDzX8+UBWVArmw1wUCSKCFbWaV13wIEnBBhJni1jE=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2300830
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=gMEzm+FuMQIHmATKCtXTjV1srdwfHtzpQw5yGMAzTcg=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for gMEzm+FuMQIHmATKCtXTjV1srdwfHtzpQw5yGMAzTcg=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2342274
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=pU35rXi3CPSkQnRAzFYNQXf59pTiMmIjLlns54YVeuQ=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for pU35rXi3CPSkQnRAzFYNQXf59pTiMmIjLlns54YVeuQ=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2383718
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=u2wbwGGMc9jIKfQBJjYLDMcgsfIyPWDgINzTUWCmUA0=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for u2wbwGGMc9jIKfQBJjYLDMcgsfIyPWDgINzTUWCmUA0=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2425162
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=a6isAD2+S4nXnvwSEz0qhS9Qq9UdA3kN9tM0oPS3jE=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for a6isAD2+S4nXnvwSEz0qhS9Qq9UdA3kN9tM0oPS3jE=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2466606
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=7OGFTk+OGU03PSqAw7N2eV87g7io0h0IoSZi96na1ZQ=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for 7OGFTk+OGU03PSqAw7N2eV87g7io0h0IoSZi96na1ZQ=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2508050
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=z8K3Btx5kLcnjJNJ0CauzOxeJkCuDFpG6ctEU2IT2X4=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for z8K3Btx5kLcnjJNJ0CauzOxeJkCuDFpG6ctEU2IT2X4=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2549494
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=jfeAbjPHKLmFGMz6KLzDIe9DF4Nv71gkf3O6Ayck=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for jfeAbjPHKLmFGMz6KLzDIe9DF4Nv71gkf3O6Ayck=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2590938
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=NQmgTly5BI4Secmimzttqmv1RF8Ou06g0FZUg2pkyGo=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for NQmgTly5BI4Secmimzttqmv1RF8Ou06g0FZUg2pkyGo=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2632382
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=s9cIzMDoPKJlIesBevYdO0VqxB55SvtMP32ohM0q7mk=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for s9cIzMDoPKJlIesBevYdO0VqxB55SvtMP32ohM0q7mk=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2673826
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=uf8bomEAO7yYjh51G+3YZ0Re7rqcA02+2XWx61EqhE=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for uf8bomEAO7yYjh51G+3YZ0Re7rqcA02+2XWx61EqhE=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2715270
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=Tw2X7CVkNxj8fBvgBtKyuBzHAb++RH88VnqPhlmM9k=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for Tw2X7CVkNxj8fBvgBtKyuBzHAb++RH88VnqPhlmM9k=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2756714
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=pbpLxmjWm01W5D6zqJYKRijFLnYbkP5stCeEKJkLIB0=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for pbpLxmjWm01W5D6zqJYKRijFLnYbkP5stCeEKJkLIB0=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2798158
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=NyGkZ7nIk4VFBITg6791+N1Sm+m0lG6qNHza6KMXVk=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for NyGkZ7nIk4VFBITg6791+N1Sm+m0lG6qNHza6KMXVk=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2839602
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=L+fOjYlhQk3IMvKLi6yQmy6X7Ux9b++qlUIkJZmsc=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for L+fOjYlhQk3IMvKLi6yQmy6X7Ux9b++qlUIkJZmsc=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2881046
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=w8RIBgDgyQIVvlks7N1ovRSEbwOwxGWsab9gqW5VisI=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for w8RIBgDgyQIVvlks7N1ovRSEbwOwxGWsab9gqW5VisI=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2922490
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=DfX1yh3k1jW4H8NreYOUPDlk5jecSLo8gD+cxtc4UJE=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for DfX1yh3k1jW4H8NreYOUPDlk5jecSLo8gD+cxtc4UJE=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=2963934
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexJarDir=/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex
+nondexExecid=ruUolTr6XAHWMRZsMnvm3Tk2rL6RhapBK78IKWtZ3qc=
+nondexLogging=CONFIG
+test=
+INFO: Surefire failed when running tests for ruUolTr6XAHWMRZsMnvm3Tk2rL6RhapBK78IKWtZ3qc=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=eExQoXmHRYFFuGPvxtSGmshx38EeT8l0uPX1vicyHhc= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=ngy+T3XDaEj4WmwRLaFrhhlaIeCeZLq3VJ87wA7Bcg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=BoRzT7MeFEagStOIFA6zsUcfDUCOD4hH5lURtsaHWQ= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1057510 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=aOJkOokkfgdYp2Vlw2YudOsaLZpiAVspA1JykiIoZ4= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1098954 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=Y8UHzIv9R7qNKELZ3Ltm8RkIPUxffWlqL6buK3MHLg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1140398 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=O3IAeWqULN0zADXZmvoK57G8X0ViJhQBnLqJ1l2+jU= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1181842 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=q1mFyAsVVYFh38MhYiAEn1PTCsQJu8jx1QTY8BGQC78= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1223286 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=8WILGG3HrKG5MKTae354UlloU3tzWn4jbuFF2xnGP0w= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1264730 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=G3sGgs0XMTm+OIpdLP4pMuXv7bntxshRNvYwZWdteOI= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1306174 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=XAzclu68J7LjEXlskIk7h2AMWgQ960O3A7VraMwJSM= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1347618 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=CsBad12sZAcIG79p5xAE7Pnz12jLAieavHBQ7Jbxbx4= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1389062 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=7xO19k25yebImYr019sTO62+d58DJTcwnBdfT6c9MI= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1430506 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=+retCNhukUZjp21Gfo+iA5t4oC8bZ+YAVBfGoqvvTk= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1471950 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=K7jMW29zOUXWdxUQRHrmKEQgXodgWDfIajCCO+fjRWU= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1513394 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=oZ0Mdb+wRycIurFevPMMJdvboDT8D92kDDReEeFuKs= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1554838 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=hXap+hSxGUA4QgOZ5rDP9yEUFRp0cmVIzP0whPy2bJw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1596282 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=x83VR7pXBorbBrANHewEX5xevsj9PGl9CnbchnQtAN0= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1637726 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=HStlBFGb2mKXSgMvacbEle6U0mM7tiKYl4ETPmUayYA= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1679170 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=n3CotgwfWacdNcBq0IB7GDJX5PTtxYW0zI7OgIYeg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1720614 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=DmxOGn2461XHOoxxilAKCYo+nyVMfzhGFecXrJzHc= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1762058 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=LN7BKE7Jrfe1aiVldBKT13nj6AoRpjvF9zvmyxHvpM= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1803502 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=X2gzeHxsUT5ZV8FUzc2CzuXTFkFvx19cKs2l5xA9cok= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1844946 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=e+xRsZDgbpp2DSLLSuNecDPYbDH6ru8eItJh3GZg0jo= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1886390 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=4LdGfLMRVmjMQNrlcikmOua5DU47HD4rMQOcYRwQy4M= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1927834 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=lx1z8Om9urmPx83z3j28IT0iuVr+QAd98+cYfRDhFU= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1969278 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=6JmUrQNFJOednV8uCMjOG8vfUKgS4eO3vElicbgiTg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2010722 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=Z8FAq4EU5ALO+SMKT24d7m96xsyW8g3Scpl7QLZO14s= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2052166 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=H8lr0wpZPMdGW29f1Xx3cuCuVf8FnSFJbqXsSVtiw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2093610 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=cG34CKrX7aO2u8ug8QnLt6UGN1tPIv6axgHOdkrnNw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2135054 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=jF7AU1+nAC5qgLiEmbHvgiFU1aW8XF8CNccyWztLA= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2176498 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=Nb3vYl4kKA+liPMEg5zlEKbb1C9TH9U+wkAWKvoRH0= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2217942 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=Z+EbuA1Abr9zrMMQLZB7XR2JGvV0Tsf4SHVuGXW9A04= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2259386 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=GDEDzX8+UBWVArmw1wUCSKCFbWaV13wIEnBBhJni1jE= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2300830 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=gMEzm+FuMQIHmATKCtXTjV1srdwfHtzpQw5yGMAzTcg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2342274 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=pU35rXi3CPSkQnRAzFYNQXf59pTiMmIjLlns54YVeuQ= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2383718 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=u2wbwGGMc9jIKfQBJjYLDMcgsfIyPWDgINzTUWCmUA0= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2425162 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=a6isAD2+S4nXnvwSEz0qhS9Qq9UdA3kN9tM0oPS3jE= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2466606 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=7OGFTk+OGU03PSqAw7N2eV87g7io0h0IoSZi96na1ZQ= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2508050 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=z8K3Btx5kLcnjJNJ0CauzOxeJkCuDFpG6ctEU2IT2X4= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2549494 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=jfeAbjPHKLmFGMz6KLzDIe9DF4Nv71gkf3O6Ayck= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2590938 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=NQmgTly5BI4Secmimzttqmv1RF8Ou06g0FZUg2pkyGo= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2632382 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=s9cIzMDoPKJlIesBevYdO0VqxB55SvtMP32ohM0q7mk= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2673826 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=uf8bomEAO7yYjh51G+3YZ0Re7rqcA02+2XWx61EqhE= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2715270 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=Tw2X7CVkNxj8fBvgBtKyuBzHAb++RH88VnqPhlmM9k= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2756714 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=pbpLxmjWm01W5D6zqJYKRijFLnYbkP5stCeEKJkLIB0= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2798158 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=NyGkZ7nIk4VFBITg6791+N1Sm+m0lG6qNHza6KMXVk= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2839602 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=L+fOjYlhQk3IMvKLi6yQmy6X7Ux9b++qlUIkJZmsc= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2881046 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=w8RIBgDgyQIVvlks7N1ovRSEbwOwxGWsab9gqW5VisI= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2922490 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=DfX1yh3k1jW4H8NreYOUPDlk5jecSLo8gD+cxtc4UJE= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=2963934 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexJarDir="/home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex" -DnondexExecid=ruUolTr6XAHWMRZsMnvm3Tk2rL6RhapBK78IKWtZ3qc= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/neo/cs527/nondex_upgrade_testing/commons-collections/.nondex/eExQoXmHRYFFuGPvxtSGmshx38EeT8l0uPX1vicyHhc=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: eExQoXmHRYFFuGPvxtSGmshx38EeT8l0uPX1vicyHhc=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.788 s
+[[1;34mINFO[m] Finished at: 2023-10-04T00:31:24-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.1.1:nondex[m [1m(default-cli)[m on project [36mcommons-collections4[m: [1;31mUnable to execute mojo[m: No tests were executed!  (Set -DfailIfNoTests=false to ignore this error.) -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+HEAD is now at c8542472 Update commons-codec from 1.14 to 1.15.
+
